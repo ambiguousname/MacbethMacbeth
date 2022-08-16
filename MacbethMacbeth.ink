@@ -35,21 +35,45 @@ ACT I, SCENE I
         *** \*MACBETH enters stage left. The AUDIENCE looks confused.\* 
         
             **** MACBETH: Line?
-                ->selfish_intro->SceneIV
+                ->selfish_intro->
             **** MACBETH: Bring me no more reports; let them fly all:
-                -> standard_intro -> SceneIV
+                -> standard_intro ->
             **** MACBETH: ???
-                -> jason_intro -> SceneIV
+                -> jason_intro ->
+-
+->SceneV
             
 === selfish_intro ===
 \*SEYTON\* peers out from stage right.
 
-SEYTON (Loudly Whispering): AHEM! Bring me no reports; let them fly all!
+SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
 
-* MACBETH: B-bring me... no... rapports, let them... let them...
-    ->DONE
-* MACBETH: That's a dumb line.
-    ->DONE
+* MACBETH: What was that?
+    SEYTON (Loudly Whispering): Bring me no reports! Let them fly all!
+    ** MACBETH (Shouting): WHAT?
+        SEYTON (Shouting): BRING ME NO REPORTS! LET THEM FLY ALL!
+        
+    ** MACBETH: I mean, I can't understand what you're saying.
+        SEYTON (Whispering): It means Macbeth doesn't want to hear any bad news!
+        *** MACBETH: I get that, but... wait, why doesn't Macbeth want to hear any bad news?
+                SEYTON (No longer whispering): Because he killed King Duncan, and he's now regretting the consequences of his actions!
+                **** MACBETH: Wait, Macbeth's a murderer?
+                    \*SEYTON steps onto the stage, and approaches MACBETH.\*
+                    SEYTON (Whispering to MACBETH): You are a thespian, right?
+                    
+                    \*SEYTON steps back and clears his throat.\*
+                    
+                    SEYTON: What is your gracious pleasure?
+                    
+                    ***** MACBETH: Ha. Gracious pleasure.
+                **** MACBETH: Serves Macbeth right then. Guess I shouldn't've killed the King.
+        *** MACBETH: 
+        *** MACBETH: Sorry, say that again? I didn't catch all of that.
+* MACBETH: I think that could do with some revision.
+    \*MACDUFF leans out from stage left.\*
+    MACDUFF (Whispering): Don't get fancy with it, just stick to the script.
+    ** MACBETH: Ha, I didn't read the script.
+-
 ->->
 
 === jason_intro ===
@@ -156,6 +180,8 @@ Where got'st thou that goose look?
                                         Profit again should hardly draw me here.
 ->->
 
-=== SceneIV ===
-ACT V, SCENE IV
+=== SceneV ===
+\*MACBETH exits. MACDUFF and his army enter. MACBETH watches MACDUFF and his army prepare for war.\*
+
+ACT V, SCENE V
 -> END
