@@ -52,6 +52,7 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
     SEYTON (Loudly Whispering): Bring me no reports! Let them fly all!
     ** MACBETH (Shouting): WHAT?
         SEYTON (Shouting): BRING ME NO REPORTS! LET THEM FLY ALL!
+        TODO
         
     ** MACBETH: I mean, I can't understand what you're saying.
         SEYTON (Whispering): It means Macbeth doesn't want to hear any bad news!
@@ -66,6 +67,7 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
                     SEYTON: What is your gracious pleasure?
                     
                     ***** MACBETH: Ha. Gracious pleasure.
+                    TODO
                 **** MACBETH: Serves Macbeth right then. Guess I shouldn't've killed the King.
         *** MACBETH: 
         *** MACBETH: Sorry, say that again? I didn't catch all of that.
