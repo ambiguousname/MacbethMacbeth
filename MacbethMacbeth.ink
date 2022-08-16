@@ -69,12 +69,16 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
                     ***** MACBETH: Ha. Gracious pleasure.
                     TODO
                 **** MACBETH: Serves Macbeth right then. Guess I shouldn't've killed the King.
-        *** MACBETH: 
+                    TODO
+        *** MACBETH:
+            TODO
         *** MACBETH: Sorry, say that again? I didn't catch all of that.
+        TODO
 * MACBETH: I think that could do with some revision.
     \*MACDUFF leans out from stage left.\*
     MACDUFF (Whispering): Don't get fancy with it, just stick to the script.
     ** MACBETH: Ha, I didn't read the script.
+    TODO
 -
 ->->
 
