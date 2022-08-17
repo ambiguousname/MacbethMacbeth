@@ -22,7 +22,7 @@ ACT I, SCENE I
         
         MACDUFF: You just made it to the finale, congratulations. In case you've forgotten your lines, I'll say this: Macbeth is about to learn his wife is sick, and that the English are about to storm the castle. I'll tell your replacement to get off the stage.
         
-        \*MACBETH and MACDUFF enter the theatre. FAKE MACBETH is currently onstage.\*
+        \*MACBETH and MACDUFF enter the theatre. FAKE MACBETH, SERVANT, and DOCTOR are currently onstage.\*
         
         FAKE MACBETH: Bring me no more reports--
         
@@ -52,7 +52,67 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
     SEYTON (Loudly Whispering): Bring me no reports! Let them fly all!
     ** MACBETH (Shouting): WHAT?
         SEYTON (Shouting): BRING ME NO REPORTS! LET THEM FLY ALL!
-        TODO
+        *** MACBETH: Hey, keep it down!
+            SEYTON (Shouting): HAVE YOU EVER SEEN AN ACTOR STRANGLE SOMEONE BEFORE?
+            
+            \*SEYTON turns to look offstage.\*
+            
+            SEYTON: What? WHAT? Macbeth started it!
+            
+            \*SERVANT clears their throat.\*
+            
+            SERVANT: There is ten thousand--
+            
+            **** MACBETH: Ten thousand what?
+                SERVANT: Geese. Wait, no... err...
+                
+                ***** MACBETH: Ten thousand geese?
+                    SERVANT: No. Soldiers, sir!
+                    ****** MACBETH: Is that how many soldiers I have?
+                        SERVANT: Go prick thy face, and over-red thy fear,
+                        
+                        ******* MACBETH: What did you just say to me?
+                            SERVANT: Wait! WAIT! The English force, so please you.
+                            
+                            \*SEYTON enters from stage right, slowly clapping.\*
+                            
+                            SEYTON: Congrats, congrats! I have your armour here Sire, and LOOK, MACDUFF!
+                            \*MACBETH, SEYTON, and SERVANT exit.\*
+                        ******* MACBETH: 
+                        TODO
+                    ****** MACBETH: That's no good.
+                    TODO
+                ***** MACBETH: Wait, what happened to my sick wife?
+                    DOCTOR: Ha, yes! She is troubled with thick coming fancies,
+                    That keep her from her rest.
+                    
+                    ****** MACBETH: Whatever you said makes no sense.
+                        DOCTOR: Ha, very good. My good lord! Ha, your... royal preparation
+                        Makes us hear something.
+                        
+                        *******[MACBETH: I still am not making any sense of what you're saying.]
+                        *******[MACBETH: I will make you unhear it.]
+                        *******[MACBETH: I still don't know my lines.]
+                        
+                        -------
+                        MACBETH: I--
+                        
+                        DOCTOR: HA YES, VERY GOOD! WERE I FROM DUNSINANE! I mean...
+                        
+                        DOCTOR (Aside): Were I from Dunsinane away and clear,
+                        Profit again should hardly draw me here.
+                        
+                        \*DOCTOR rushes over to MACBETH to force them both offstage. SERVANT follows.\*
+            
+            **** \*MACBETH pauses to look at the SERVANT\*
+            
+            **** MACBETH: Don't think we're not done, SEYTON.
+            
+        *** MACBETH: Ah, yes. Bring me no reports, let them fly all;
+            **** MACBETH: Okay, that's it. See you all later!
+                \*MACBETH begins to bow.\*
+            **** MACBETH:
+            TODO
         
     ** MACBETH: I mean, I can't understand what you're saying.
         SEYTON (Whispering): It means Macbeth doesn't want to hear any bad news!
