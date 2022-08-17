@@ -4,7 +4,7 @@
 
 ACT I, SCENE I
 
-\*Thunder and lightning. Enter MACBETH.\* 
+\*Thunder and lightning. Enter MACBETH.\*
 
 * MACBETH: Air is foul, and mine chariot hath been buried in the mud. I may yet seek deliverance.
 
@@ -162,7 +162,13 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
                         
                         \*The DOCTOR tugs MACBETH offstage.\*
                 ***** MACBETH: I don't know.
-                    TODO
+                    SERVANT: Okay... I feel like... I mean, I should probably...
+                    
+                    \*FAKE MACBETH peers out onstage.\*
+                    
+                    FAKE MACBETH: Alright, I'm gonna have a go. Excuse me, excuse me.
+                    
+                    \*MACBETH is hurriedly escorted offstage. FAKE MACBETH performs the rest of the scene, and exits with DOCTOR and SERVANT.\*
             **** MACBETH: Don't think we're not done, Seyton.
                 SEYTON (Shouting): MACBETH! KEEP YOUR FLYING TRAP SHUT! THIS IS THE LAST STRAW!
                         
@@ -191,8 +197,14 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
             
         *** MACBETH: Ah, yes. Bring me no reports, let them fly all;
             **** MACBETH: Okay, that's it. See you all later!
-                \*MACBETH begins to bow.\*
-            **** MACBETH:
+                \*MACBETH begins to bow, and exits.\*
+            **** MACBETH: Next line?
+                SEYTON (Shouting): TILL BIRNAM WOOD REMOVE TO DUNSINANE,
+                    ***** MACBETH: Till Birnam wood remove to Dunsinane,
+                    ***** MACBETH: How many more lines am I going to have?
+                        SEYTON (Shouting): TILL BIRNAM WOOD REMOVE TO DUNSINANE,
+                        ****** MACBETH: Sorry, are you broken?
+                        ****** MACBETH: 
             TODO
         
     ** MACBETH: I mean, I can't understand what you're saying.
