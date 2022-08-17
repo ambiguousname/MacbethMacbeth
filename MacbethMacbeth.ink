@@ -77,11 +77,26 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
                             \*SEYTON enters from stage right, slowly clapping.\*
                             
                             SEYTON: Congrats, congrats! I have your armour here Sire, and LOOK, MACDUFF!
-                            \*MACBETH, SEYTON, and SERVANT exit.\*
-                        ******* MACBETH: 
-                        TODO
+                            \*MACBETH, SEYTON, DOCTOR, and SERVANT exit.\*
+                        ******* MACBETH: My fear hath never been red.
+                            SERVANT: Wait, wait, that's err... that's wrong.
+                            It were, uhh, I mean... It is, it is good... no,
+                            it's uhhh, it is bad... 
+                            
+                            \*The SERVANT's mumblings grow quieter and quieter.\*
+                            
+                            DOCTOR: Ha, your royal preparation is ready! Let us go!
+                            
+                            \*MACBETH, DOCTOR, and SERVANT exit.\*
                     ****** MACBETH: That's no good.
-                    TODO
+                        SERVANT: No. It's... not.
+                        
+                        \*There is an uncomfortable silence as the SERVANT and MACBETH stare at each other for quite some time.\*
+                        
+                        DOCTOR: Ha, I am going to... leave now. And MACBETH will come with me to... check on things.
+                        
+                        \*SERVANT, MACBETH, and DOCTOR exit.\*
+                        
                 ***** MACBETH: Wait, what happened to my sick wife?
                     DOCTOR: Ha, yes! She is troubled with thick coming fancies,
                     That keep her from her rest.
@@ -105,8 +120,74 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
                         \*DOCTOR rushes over to MACBETH to force them both offstage. SERVANT follows.\*
             
             **** \*MACBETH pauses to look at the SERVANT\*
-            
-            **** MACBETH: Don't think we're not done, SEYTON.
+                SERVANT: What are you... doing?
+                
+                ***** \*MACBETH continues to stare.\*
+                    SERVANT: Please... stop?
+                    ****** MACBETH: IT WAS YOU!
+                        SERVANT: What?
+                        
+                        \*The PLAY DIRECTOR enters.\*
+                        
+                        PLAY DIRECTOR: Uhm... Shock! Surprise! The SERVANT killed...
+                        
+                        ******* MACBETH: My wife! You poisoned my wife!
+                            PLAY DIRECTOR: Sure, let's go with that.
+                            
+                            \*The PLAY DIRECTOR waits for a few seconds.\*
+                            
+                            PLAY DIRECTOR: AND so, MACBETH went offstage to... deal with the SERVANT!
+                            
+                            \*MACBETH, SERVANT, DOCTOR, and PLAY DIRECTOR exit.\*
+                        ******* MACBETH: The king! You killed the poor king!
+                            SERVANT: I killed the king?
+                            
+                            PLAY DIRECTOR: What? No!
+                            
+                            ******** \*MACBETH exits.\*
+                            
+                            PLAY DIRECTOR: Hey, wait a minute!
+                            
+                            \*SERVANT, DOCTOR, and PLAY DIRECTOR exit, chasing after MACBETH.\*
+                    ****** MACBETH: No.
+                        SERVANT: Please...?
+                        
+                        \*The DOCTOR quickly steps up to the SERVANT.\*
+                        
+                        DOCTOR: I think sire Macbeth wishes no company. Let us depart.
+                        
+                        \*SERVANT exits. DOCTOR is about to exit, and turns to face MACBETH. MACBETH stares at DOCTOR silently.\*
+                        
+                        DOCTOR: Seyton shall be with your armour, lord. Ha, I shall do my best to cure my patient.
+                        
+                        \*The DOCTOR tugs MACBETH offstage.\*
+                ***** MACBETH: I don't know.
+                    TODO
+            **** MACBETH: Don't think we're not done, Seyton.
+                SEYTON (Shouting): MACBETH! KEEP YOUR FLYING TRAP SHUT! THIS IS THE LAST STRAW!
+                        
+                    \*SEYTON marches on stage. PLAY DIRECTOR follows.\*
+                    
+                    PLAY DIRECTOR: Look, please don't make a scene...
+                    
+                    SEYTON: Oh, oh, I'M NOT MAKING A SCENE? WHAT DO YOU CALL THIS PURE MOCKERY?
+                    
+                    ***** MACBETH: Listen, I mean no disrespect...
+                        SEYTON: Sure, like I believe you.
+                        
+                        \*PLAY DIRECTOR clears their throat.\*
+                        
+                        PLAY DIRECTOR: And yes, so MACBETH got into an argument with SEYTON, and MACBETH 'twere very sad.
+                        
+                        \*PLAY DIRECTOR escorts SEYTON, MACBETH, DOCTOR, and SERVANT offstage.\*
+                    ***** MACBETH: Got something to say to me, Seyton?
+                        SEYTON: Oh yeah, I've got two somethings you little...
+                        
+                        \*PLAY DIRECTOR clears their throat.\*
+                        
+                        PLAY DIRECTOR: And yes, so MACBETH got into an argument with SEYTON, and MACBETH 'twere very sad.
+                        
+                        \*PLAY DIRECTOR escorts SEYTON, MACBETH, DOCTOR, and SERVANT offstage.\*
             
         *** MACBETH: Ah, yes. Bring me no reports, let them fly all;
             **** MACBETH: Okay, that's it. See you all later!
@@ -244,10 +325,12 @@ Where got'st thou that goose look?
                                     
                                         DOCTOR (Aside): Were I from Dunsinane away and clear,
                                         Profit again should hardly draw me here.
+                                        
+                                        *********** \*MACBETH exits.\*
 ->->
 
 === SceneV ===
-\*MACBETH exits. MACDUFF and his army enter. MACBETH watches MACDUFF and his army prepare for war.\*
+\*MACDUFF and his army enter. MACBETH watches MACDUFF and his army prepare for war.\*
 
 ACT V, SCENE V
 -> END
