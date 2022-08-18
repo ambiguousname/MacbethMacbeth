@@ -312,8 +312,24 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
     \*MACDUFF leans out from stage left.\*
     MACDUFF (Whispering): Don't get fancy with it, just stick to the script.
     ** MACBETH: Ha, I didn't read the script.
-    TODO
+        MACDUFF (Whispering): I am shocked. Shocked, that you cannot read.
+        
+        *** MACBETH: You don't have to be such a jerk, Macduff.
+            MACDUFF: The way you phrase it, it's almost like I'm not your antagonist. Like I'm not meant to be the actual foil to your diabolical plans.
+            
+            **** MACBETH: Diabolical plans?
+                MACDUFF: Diabolical, yes. You killed the king. You know what, I can't discuss this with you. I'll see you in a few scenes.
+                
+                \*MACDUFF yanks MACBETH offstage. The SERVANT and the DOCTOR follow.\*
+            **** MACBETH: 
+                TODO
+        
+        *** MACBETH: Wait, if I can't read, how can I read this?
+            -> witch_encounter ->
     ** MACBETH: Stick with the script. Got it.
+        MACDUFF (Whispering): Good.
+        *** MACBETH:
+        TODO
 -
 ->->
 
