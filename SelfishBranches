@@ -131,7 +131,11 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
                     
                     PLAY DIRECTOR: Look, please don't make a scene...
                     
-                    SEYTON: Oh, oh, I'M NOT MAKING A SCENE? WHAT DO YOU CALL THIS PURE MOCKERY?
+                    SEYTON: Oh, oh, I'M NOT MAKING A SCENE? WHAT DO YOU CALL THIS?
+                    
+                    \*SEYTON gestures wildly at MACBETH.\*
+                    
+                    PLAY DIRECTOR: Scene III. Now get off the stage.
                     
                     ***** MACBETH: Listen, I mean no disrespect...
                         SEYTON: Sure, like I believe you.
@@ -156,11 +160,27 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
             **** MACBETH: Next line?
                 SEYTON (Shouting): TILL BIRNAM WOOD REMOVE TO DUNSINANE,
                     ***** MACBETH: Till Birnam wood remove to Dunsinane,
+                        SEYTON: (Shouting): I CANNOT TAINT WITH FEAR.
+                        
+                        \*The AUDIENCE is visibly annoyed. HECKLER shouts from offstage.\*
+                        
+                        HECKLER: KNOW YOUR LINES, IDIOT! WE CAN ALL HEAR YOU!
+                        
+                        
+                        \*FAKE MACBETH enters.\*
+                        
+                        FAKE MACBETH: I think it's best if I handle this. Sorry, Macbeth.
+                        
+                        \*MACBETH exits, and FAKE MACBETH plays out the rest of the scene.\*
+                        
                     ***** MACBETH: How many more lines am I going to have?
                         SEYTON (Shouting): TILL BIRNAM WOOD REMOVE TO DUNSINANE,
                         ****** MACBETH: Sorry, are you broken?
-                        ****** MACBETH: 
-            TODO
+                            SEYTON: I BREAK YOUR FACE!
+                            
+                            \*SEYTON leaps towards MACBETH, and drags them offstage.\*
+                        ****** MACBETH: Hey wait, what's that?
+                            ->witch_encounter->
         
     ** MACBETH: I mean, I can't understand what you're saying.
         SEYTON (Whispering): It means Macbeth doesn't want to hear any bad news!
@@ -174,18 +194,126 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
                     
                     SEYTON: What is your gracious pleasure?
                     
-                    ***** MACBETH: Ha. Gracious pleasure.
+                    ***** MACBETH: If I'm a murderer, I guess I can just turn myself into the police, right?
+                        SEYTON: Uhhh, police don't exist yet?
+                        
+                        SERVANT: There's the English army!
+                        
+                        SEYTON: Great, we can surrender Macbeth to them. Let's go.
+                        
+                        \*SEYTON forces MACBETH offstage, with SERVANT and DOCTOR following.\*
+                    ***** MACBETH: Can I just be king?
+                        SEYTON: You... you are king.
+                    
+                        ****** MACBETH: Yeah, but the army is showing up, right?
+                            SERVANT: The English army, yes.
+                            
+                            DOCTOR: Ha, and your wife is still sick.
+                            
+                            ******* MACBETH: Let's go kill the army, then.
+                                \*MACBETH, DOCTOR, SERVANT, and SEYTON exit.\*
+                            ******* MACBETH: Let's sit here and wait until they come to kill us.
+                                SEYTON: Uhh, no. No. We need to exit. Now.
+                                \*SEYTON forces MACBETH, SERVANT, and DOCTOR offstage.\*
+                        ****** MACBETH: I wanna be... a SUPER king.
+                            SEYTON: That's not a real title!
+                            
+                            SEYTON: And besides... the army is showing up. To forcibly remove you.
+                            
+                            ******* MACBETH: I'm not too worried about that.
+                                SEYTON: Ahh, because of the prophecy?
+                                
+                                ******** MACBETH: There's a prophecy?
+                                    SEYTON: YES! AND LET ME...
+                                    
+                                    \*SEYTON looks towards the AUDIENCE.\*
+                                    
+                                    SEYTON: And let me show you it... offstage.
+                                    
+                                    \*MACBETH, SEYTON, DOCTOR, and SERVANT exit.\*
+                                ******** MACBETH: Yes, the prophecy!
+                                    SEYTON: Great! You know the prophecy. Let's bounce.
+                                    
+                                    \*MACBETH, SEYTON, DOCTOR, and SERVANT exit.\*
+                            ******* MACBETH: Well, do something about it!
+                                SEYTON: I'll... go fetch your armour.
+                                
+                                \*SEYTON leaves, and then doubles back.\*
+                                
+                                SEYTON: Actually, you should come and get it with me! That would be much better for the production. I mean... the battle! You should get things... set up for yourself.
+                                
+                                \*SEYTON, MACBETH, DOCTOR, and SERVANT exit.\*
+                    ***** MACBETH: Hmm... I dunno. 
                     TODO
                 **** MACBETH: Serves Macbeth right then. Guess I shouldn't've killed the King.
                     TODO
-        *** MACBETH:
-            TODO
         *** MACBETH: Sorry, say that again? I didn't catch all of that.
-        TODO
+            TODO
 * MACBETH: I think that could do with some revision.
     \*MACDUFF leans out from stage left.\*
     MACDUFF (Whispering): Don't get fancy with it, just stick to the script.
     ** MACBETH: Ha, I didn't read the script.
     TODO
 -
+->->
+
+=== witch_encounter ===
+\*FIRST WITCH, SECOND WITCH, and THIRD WITCH pop up from underneath the stage.\*
+FIRST WITCH: All hail Macbeth! Hail to thee, thane of delusion!
+
+SECOND WITCH: All hail Macbeth! Hail to thee, thane of lies!
+
+THIRD WITCH: Macbeth has already heard this part! Probably. Let's skip to the good stuff!
+
+FIRST WITCH: We must call for a ritual!
+
+SECOND WITCH: Yes a ritual! But what of the stage? What of Macbeth?
+
+THIRD WITCH: Indeed, the AUDIENCE must not be kept waiting!
+
+FIRST WITCH: Permit us to spirit you to safety! To bind your extremities, to unravel your orifices!
+
+* MACBETH: What are you talking about?
+* MACBETH: No way!
+* MACBETH: I permit it.
+    SECOND WITCH: HA! Macbeth permits us to... bind them.
+    
+    THIRD WITCH: Prepare the rope!
+    
+    FIRST WITCH: I call the legs!
+    
+    \*FIRST WITCH, SECOND WITCH, and THIRD WITCH cackle gleefully, and begin to bind MACBETH.\*
+    
+    ALL: Show thy eyes, grieve thy heart;
+    With your soul entwined, we so depart!
+    
+    FIRST WITCH: When you seek our host,
+    take your path upmost!
+    
+    \*FIRST WITCH, SECOND WITCH, THIRD WITCH, and MACBETH exit.\*
+    ->->
+-
+SECOND WITCH: Macbeth rejects our gifts. Foolish, spiteful, scoliotic conduct.
+
+THIRD WITCH: Fare thee well,
+
+FIRST WITCH: We see you off!
+
+SECOND WITCH: Remember: when all in slough,
+
+THIRD WITCH: And the winds blow rough,
+
+FIRST WITCH: Take great warning,
+
+ALL: AND BEWARE MACDUFF!
+
+\*FIRST WITCH, SECOND WITCH, and THIRD WITCH vanish. MACDUFF enters.\*
+
+MACDUFF (Hurriedly Whispering): Why have you been staring at the stage for the past five minutes? We already had your understudy do the lines already...
+
+\*MACBETH stares at the AUDIENCE. The AUDIENCE does not look particularly amused.\*
+
+MACDUFF (Aggressively Whispering Through Clenched Teeth): GET. OFF. THE. STAGE.
+
+\*MACBETH exits.\*
 ->->
