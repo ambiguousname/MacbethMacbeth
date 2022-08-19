@@ -30,7 +30,7 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
                     ****** MACBETH: Is that how many soldiers I have?
                         SERVANT: Go prick thy face, and over-red thy fear,
                         
-                        ~ selfishEnemy = "Servant"
+                        ~ selfishEnemy = "SERVANT"
                         
                         ******* MACBETH: What did you just say to me?
                             SERVANT: Wait! WAIT! The English force, so please you.
@@ -51,7 +51,8 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
                             \*MACBETH, DOCTOR, and SERVANT exit.\*
                     ****** MACBETH: That's no good.
                     
-                        ~ selfishEnemy = "Random"
+                        LIST possibleEnemies = MACDUFF, DOCTOR, SERVANT, SEYTON
+                        ~ selfishEnemy = "{LIST_RANDOM(possibleEnemies)}"
                     
                         SERVANT: No. It's... not.
                         
@@ -62,7 +63,7 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
                         \*SERVANT, MACBETH, and DOCTOR exit.\*
                         
                 ***** MACBETH: Wait, what happened to my sick wife?
-                    ~ selfishEnemy = "Doctor"
+                    ~ selfishEnemy = "DOCTOR"
                 
                     DOCTOR: Ha, yes! She is troubled with thick coming fancies,
                     That keep her from her rest.
@@ -88,7 +89,7 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
             **** \*MACBETH pauses to look at the SERVANT\*
                 SERVANT: What are you... doing?
                 
-                ~selfishEnemy = "Servant"
+                ~selfishEnemy = "SERVANT"
                 
                 ***** \*MACBETH continues to stare.\*
                     SERVANT: Please... stop?
@@ -144,7 +145,7 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
                     
                     ~selfishReplacedByFakeMacbeth = true
             **** MACBETH: Don't think we're not done, Seyton.
-                ~selfishEnemy = "Seyton"
+                ~selfishEnemy = "SEYTON"
             
                 SEYTON (Shouting): MACBETH! KEEP YOUR FLYING TRAP SHUT! THIS IS THE LAST STRAW!
                         
@@ -201,7 +202,7 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
                     ***** MACBETH: How many more lines am I going to have?
                         SEYTON (Shouting): TILL BIRNAM WOOD REMOVE TO DUNSINANE,
                         ****** MACBETH: Sorry, are you broken?
-                            ~selfishEnemy = "Seyton"
+                            ~selfishEnemy = "SEYTON"
                             SEYTON: I BREAK YOUR FACE!
                             
                             \*SEYTON leaps towards MACBETH, and drags them offstage.\*
@@ -211,7 +212,7 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
     ** MACBETH: I mean, I can't understand what you're saying.
         SEYTON (Whispering): It means Macbeth doesn't want to hear any bad news.
         *** MACBETH: I get that, but... wait, why doesn't Macbeth want to hear any bad news?
-            ~selfishEnemy = "Seyton"
+            ~selfishEnemy = "SEYTON"
         
             SEYTON (No longer whispering): Because he killed King Duncan, and he's now regretting the consequences of his actions!
             **** MACBETH: Wait, Macbeth's a murderer?
@@ -335,7 +336,7 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
             **** MACBETH: Don't worry, I'll make up a new motivation.
                 SEYTON: What? Uhhh, no! Don't do that!
                 
-                ~selfishEnemy = "Macduff"
+                ~selfishEnemy = "MACDUFF"
                 
                 ***** MACBETH: Macduff killed my father.
                     ~selfishDistinctOutcome = "MacduffMurderedFather"
@@ -349,7 +350,7 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
     \*MACDUFF leans out from stage left.\*
     MACDUFF (Whispering): Don't get fancy with it, just stick to the script.
     
-    ~selfishEnemy = "Macduff"
+    ~selfishEnemy = "MACDUFF"
     ** MACBETH: Ha, I didn't read the script.
         MACDUFF (Whispering): I am shocked. Shocked, that you cannot read.
         
@@ -525,6 +526,162 @@ MACDUFF (Aggressively Whispering Through Clenched Teeth): GET. OFF. THE. STAGE.
 \*MACBETH exits.\*
 ->->
 
+/*
+ These arguments are incredibly stupid, but there is no toUpperCase in Ink: 
+*/
+
+=== function print_enemy(firstLetter, firstLetterCapital)
+    {selfishEnemy == "DOCTOR":
+        ~ return selfishEnemy + ": Ha, " + firstLetterCapital
+    - else:
+        ~ return selfishEnemy + ": " + firstLetter
+    }
 === selfish_middle ====
+{ selfishDistinctOutcome:
+- "ServantPoisonedWife":
+- "ServantKilledKing":
+    -> servant_murderer_outcome ->
+- "LeftEarly":
+    -> left_early_outcome ->
+- "Heckled":
+    -> heckled_outcome ->
+- "SurrenderingToTheEnglish":
+    -> surrendering_outcome ->
+- "SittingForDeath":
+    -> waiting_for_death_outcome ->
+- "ReallyUpsetSeyton":
+    ->upset_seyton_outcome->
+- "MacduffExecutionScheduled":
+- "MacduffExecutionScheduledImpostor":
+    -> macduff_execution_outcome ->
+}
+// Macduff hands bound will only be used for finale (when Macbeth fights Macduff).
+// Same with the whole "Macduff killed my father" or "Macduff killed the king". That will be saved for the duel with Macduff.
+
+->->
+
+=== servant_murderer_outcome ===
+SEYTON: Alright, I guess... we're continuing our conversation from last time, since the Servant is apparently a murderer.
+
+\*SERVANT enters.\*
+
+SERVANT: I am not!
+
+SEYTON: Okay, well, it doesn't make any sense NOT to follow this through line that Macbeth has so generously started for us.
+
+SERVANT: Seyton please, I only got to say a few things, and besides, why worry about my death when there's an army at the gate?
+
+SEYTON: Pretty sure that even as a King who got power through murder, Macbeth has to execute murderers.
+
+SERVANT: But I didn't even do it!
+
+SEYTON: Save it for... wait, does anyone hear that?
+
+SERVANT: Hear what?
+
+SEYTON: It's like a low humming.
+
+SERVANT: Wait, wait, I think I hear it too.
+
+\*The DOCTOR runs onstage.\*
+
+DOCTOR (Shouting): BEES!
+
+\*A box of bees is thrown onto the stage. Swarms and swarms of Bees exit from the box and begin to sting all present. Please procure real, angry bees for the illusion of being stung by bees to work. You'll know you're doing a good job if the AUDIENCE is screaming in terror (Things like "OW! OW! WHY DID YOU INTRODUCE REAL, LIVE BEES!" or "I'M ALLERGIC! SOMEONE CALL AN AMBULANCE!").\*
+
+DOCTOR (Screaming): THIS HURTS! THIS HURTS SO MUCH! I WISH I WERE A REAL DOCTOR!
+
+SEYTON (Screaming): MACBETH! DO SOMETHING!
+
+* MACBETH: I can introduce the bees' natural predator: WASPS!
+    SERVANT (Screaming): I TAKE IT ALL BACK! I KILLED EVERYONE! JUST DON'T--!
+    
+    \*MACBETH throws a box of wasps onstage. Again, it is imperative you acquire real, angry wasps. Other poisonous insects are also encouraged.\*
+    
+    DOCTOR (Screaming): NO! NO! NOOOOOOOOOOOOOOOO! PLEASE, STAY AWAY! AGHHHHH!
+    
+    SEYTON (Screaming): SOMEONE JUST CUT TO THE NEXT SCENE ALREADY!
+    
+    \*PLAY DIRECTOR, if they are still conscious, enters.\*
+    
+    PLAY DIRECTOR (Screaming): WE CAN'T! THE BEES AND THE WASPS ARE ALL OVER THE STAGE!
+    
+    \*MACDUFF enters.\*
+    
+    MACDUFF (Screaming): I HAVE AN IDEA! DID ANYONE BRING ANY MATCHES? WE COULD BURN THE THEATRE DOWN!
+    
+    SEYTON (Screaming): WAIT! WAIT! OW! OW! I STILL HAVE YET TO BE RECOGNIZED FOR MY PERFORMANCE! AND, OW! I HAVE A BETTER IDEA! EVERYONE RUN OUTSIDE! INTO THE RAIN!
+    
+    \*All run out of the theatre towards rain. At this point in the play, please activate your supersonic BEE and WASP neutralizer included with this script. In the case that such a device is missing, please continue the play as if you have removed all the BEES and WASPS.\*
+    
+    SEYTON (Huffing): Okay. Okay. Everyone back inside!
+    
+    \*All but MACDUFF run back inside. The AUDIENCE is mostly gone at this point.\*
+    
+    SEYTON: Okay, let's just skip to Scene VI, and... wait, where's Macduff?
+    
+    PLAY DIRECTOR: I don't know.
+    
+    MACDUFF (Offstage): Listen, this has been great, but I need to take up a much less dangerous hobby! You can have Macbeth do my parts!
+    
+    \*All faces at this point should be considerably swollen.\*
+    
+    SEYTON: No, NO!
+    
+    PLAY DIRECTOR: Well, it wouldn't make any sense to have MACBETH do the next scene as MACDUFF, but I don't see why not for the fight scene.
+    
+    SEYTON: What are you TALKING about?
+    
+    PLAY DIRECTOR: We'll just pretend MACDUFF is present for the next scene.
+    
+    SEYTON: That's NOT what I mean!
+    
+* MACBETH: Everyone, run for your lives!
+    SEYTON (Screaming): GOOD IDEA! EVERYONE RUNNN!!!!!!
+    
+    \*All run out of the theatre towards the rain. Please call for a BEE exterminator if you have not done so. Once everyone has calmed down, force all ACTORs and AUDIENCE members back into the Theatre. Threaten BEE extermination if they do not comply.\*
+    
+    SEYTON: Okay, I guess... let's just pick up from where we left off?
+    
+    \*All faces at this point should be considerably swollen.\*
+    
+    MACDUFF: Let's just skip to my scene, where there will hopefully be considerably less bees.
+    
+    DOCTOR (Offstage): Ha, bEE!
+    
+    MACDUFF: SHUT IT!
+    
+    \*All exit.\*
+-
+->->
+
+=== left_early_outcome ===
+// Seyton operates Macbeth like a puppet.
+
+->->
+
+=== heckled_outcome ===
+// Hamlet play upstairs crashes the party
+
+->->
+
+=== surrendering_outcome ===
+// Super Macbeth eats Regular Macbeth
+
+
+->->
+
+=== waiting_for_death_outcome ===
+// Make whale sounds.
+
+->->
+
+=== upset_seyton_outcome ===
+// Macbeth gets killed by Hippo
+
+->->
+
+=== macduff_execution_outcome ===
+// Wheel out a Guillotine, Macduff is executed onstage, play ends early.
 
 ->->
