@@ -1,3 +1,7 @@
+VAR selfishEnemy = ""
+VAR selfishDistinctOutcome = ""
+VAR selfishReplacedByFakeMacbeth = false
+
 === selfish_intro ===
 \*SEYTON\* peers out from stage right.
 
@@ -26,6 +30,8 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
                     ****** MACBETH: Is that how many soldiers I have?
                         SERVANT: Go prick thy face, and over-red thy fear,
                         
+                        ~ selfishEnemy = "Servant"
+                        
                         ******* MACBETH: What did you just say to me?
                             SERVANT: Wait! WAIT! The English force, so please you.
                             
@@ -44,6 +50,9 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
                             
                             \*MACBETH, DOCTOR, and SERVANT exit.\*
                     ****** MACBETH: That's no good.
+                    
+                        ~ selfishEnemy = "Random"
+                    
                         SERVANT: No. It's... not.
                         
                         \*There is an uncomfortable silence as the SERVANT and MACBETH stare at each other for quite some time.\*
@@ -53,6 +62,8 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
                         \*SERVANT, MACBETH, and DOCTOR exit.\*
                         
                 ***** MACBETH: Wait, what happened to my sick wife?
+                    ~ selfishEnemy = "Doctor"
+                
                     DOCTOR: Ha, yes! She is troubled with thick coming fancies,
                     That keep her from her rest.
                     
@@ -77,6 +88,8 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
             **** \*MACBETH pauses to look at the SERVANT\*
                 SERVANT: What are you... doing?
                 
+                ~selfishEnemy = "Servant"
+                
                 ***** \*MACBETH continues to stare.\*
                     SERVANT: Please... stop?
                     ****** MACBETH: IT WAS YOU!
@@ -94,6 +107,8 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
                             PLAY DIRECTOR: AND so, MACBETH went offstage to... deal with the SERVANT!
                             
                             \*MACBETH, SERVANT, DOCTOR, and PLAY DIRECTOR exit.\*
+                            
+                            ~selfishDistinctOutcome = "ServantPoisonedWife"
                         ******* MACBETH: The king! You killed the poor king!
                             SERVANT: I killed the king?
                             
@@ -104,6 +119,8 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
                             PLAY DIRECTOR: Hey, wait a minute!
                             
                             \*SERVANT, DOCTOR, and PLAY DIRECTOR exit, chasing after MACBETH.\*
+                            
+                            ~selfishDistinctOutcome = "ServantKilledKing"
                     ****** MACBETH: No.
                         SERVANT: Please...?
                         
@@ -125,6 +142,8 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
                     
                     \*MACBETH is hurriedly escorted offstage. FAKE MACBETH performs the rest of the scene, and exits with DOCTOR and SERVANT.\*
             **** MACBETH: Don't think we're not done, Seyton.
+                ~selfishEnemy = "Seyton"
+            
                 SEYTON (Shouting): MACBETH! KEEP YOUR FLYING TRAP SHUT! THIS IS THE LAST STRAW!
                         
                     \*SEYTON marches on stage. PLAY DIRECTOR follows.\*
@@ -156,6 +175,7 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
             
         *** MACBETH: Ah, yes. Bring me no reports, let them fly all;
             **** MACBETH: Okay, that's it. See you all later!
+                ~selfishDistinctOutcome = "LeftEarly"
                 \*MACBETH begins to bow, and exits.\*
             **** MACBETH: Next line?
                 SEYTON (Shouting): TILL BIRNAM WOOD REMOVE TO DUNSINANE,
@@ -173,9 +193,13 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
                         
                         \*MACBETH exits, and FAKE MACBETH plays out the rest of the scene.\*
                         
+                        ~selfishDistinctOutcome = "Heckled"
+                        ~selfishReplacedByFakeMacbeth = true
+                        
                     ***** MACBETH: How many more lines am I going to have?
                         SEYTON (Shouting): TILL BIRNAM WOOD REMOVE TO DUNSINANE,
                         ****** MACBETH: Sorry, are you broken?
+                            ~selfishEnemy = "Seyton"
                             SEYTON: I BREAK YOUR FACE!
                             
                             \*SEYTON leaps towards MACBETH, and drags them offstage.\*
@@ -185,125 +209,136 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
     ** MACBETH: I mean, I can't understand what you're saying.
         SEYTON (Whispering): It means Macbeth doesn't want to hear any bad news.
         *** MACBETH: I get that, but... wait, why doesn't Macbeth want to hear any bad news?
-                SEYTON (No longer whispering): Because he killed King Duncan, and he's now regretting the consequences of his actions!
-                **** MACBETH: Wait, Macbeth's a murderer?
-                    \*SEYTON steps onto the stage, and approaches MACBETH.\*
-                    SEYTON (Whispering to MACBETH): You are a thespian, right?
+            ~selfishEnemy = "Seyton"
+        
+            SEYTON (No longer whispering): Because he killed King Duncan, and he's now regretting the consequences of his actions!
+            **** MACBETH: Wait, Macbeth's a murderer?
+                \*SEYTON steps onto the stage, and approaches MACBETH.\*
+                SEYTON (Whispering to MACBETH): You are a thespian, right?
+                
+                \*SEYTON steps back and clears his throat.\*
+                
+                SEYTON: What is your gracious pleasure?
+                
+                ***** MACBETH: If I'm a murderer, I guess I can just turn myself into the police, right?
+                    SEYTON: Uhhh, police don't exist yet?
                     
-                    \*SEYTON steps back and clears his throat.\*
+                    SERVANT: There's the English army!
                     
-                    SEYTON: What is your gracious pleasure?
+                    SEYTON: Great, we can surrender Macbeth to them. Let's go.
                     
-                    ***** MACBETH: If I'm a murderer, I guess I can just turn myself into the police, right?
-                        SEYTON: Uhhh, police don't exist yet?
+                    \*SEYTON forces MACBETH offstage, with SERVANT and DOCTOR following.\*
+                    
+                    ~selfishDistinctOutcome = "SurrenderingToTheEnglish"
+                ***** MACBETH: Can I just be king?
+                    SEYTON: You... you are king.
+                
+                    ****** MACBETH: Yeah, but the army is showing up, right?
+                        SERVANT: The English army, yes.
                         
-                        SERVANT: There's the English army!
+                        DOCTOR: Ha, and your wife is still sick.
                         
-                        SEYTON: Great, we can surrender Macbeth to them. Let's go.
-                        
-                        \*SEYTON forces MACBETH offstage, with SERVANT and DOCTOR following.\*
-                    ***** MACBETH: Can I just be king?
-                        SEYTON: You... you are king.
-                    
-                        ****** MACBETH: Yeah, but the army is showing up, right?
-                            SERVANT: The English army, yes.
+                        ******* MACBETH: Let's go kill the army, then.
+                            \*MACBETH, DOCTOR, SERVANT, and SEYTON exit.\*
+                        ******* MACBETH: Let's sit here and wait until they come to kill us.
+                            SEYTON: Uhh, no. No. We need to exit. Now.
+                            \*SEYTON forces MACBETH, SERVANT, and DOCTOR offstage.\*
                             
-                            DOCTOR: Ha, and your wife is still sick.
+                            ~selfishDistinctOutcome = "SittingForDeath"
+                    ****** MACBETH: I wanna be... a SUPER king.
+                        SEYTON: That's not a real title!
+                        
+                        SEYTON: And besides... the army is showing up. To forcibly remove you.
+                        
+                        ******* MACBETH: I'm not too worried about that.
+                            SEYTON: Ahh, because of the prophecy?
                             
-                            ******* MACBETH: Let's go kill the army, then.
-                                \*MACBETH, DOCTOR, SERVANT, and SEYTON exit.\*
-                            ******* MACBETH: Let's sit here and wait until they come to kill us.
-                                SEYTON: Uhh, no. No. We need to exit. Now.
-                                \*SEYTON forces MACBETH, SERVANT, and DOCTOR offstage.\*
-                        ****** MACBETH: I wanna be... a SUPER king.
-                            SEYTON: That's not a real title!
+                            ******** MACBETH: There's a prophecy?
+                                SEYTON: YES! AND LET ME...
+                                
+                                \*SEYTON looks towards the AUDIENCE.\*
+                                
+                                SEYTON: And let me show you it... offstage.
+                                
+                                \*MACBETH, SEYTON, DOCTOR, and SERVANT exit.\*
+                            ******** MACBETH: Yes, the prophecy!
+                                SEYTON: Great! You know the prophecy. Let's bounce.
+                                
+                                \*MACBETH, SEYTON, DOCTOR, and SERVANT exit.\*
+                        ******* MACBETH: Well, do something about it!
+                            SEYTON: I'll... go fetch your armour.
                             
-                            SEYTON: And besides... the army is showing up. To forcibly remove you.
+                            \*SEYTON leaves, and then doubles back.\*
                             
-                            ******* MACBETH: I'm not too worried about that.
-                                SEYTON: Ahh, because of the prophecy?
-                                
-                                ******** MACBETH: There's a prophecy?
-                                    SEYTON: YES! AND LET ME...
-                                    
-                                    \*SEYTON looks towards the AUDIENCE.\*
-                                    
-                                    SEYTON: And let me show you it... offstage.
-                                    
-                                    \*MACBETH, SEYTON, DOCTOR, and SERVANT exit.\*
-                                ******** MACBETH: Yes, the prophecy!
-                                    SEYTON: Great! You know the prophecy. Let's bounce.
-                                    
-                                    \*MACBETH, SEYTON, DOCTOR, and SERVANT exit.\*
-                            ******* MACBETH: Well, do something about it!
-                                SEYTON: I'll... go fetch your armour.
-                                
-                                \*SEYTON leaves, and then doubles back.\*
-                                
-                                SEYTON: Actually, you should come and get it with me! That would be much better for the production. I mean... the battle! You should get things... set up for yourself.
-                                
-                                \*SEYTON, MACBETH, DOCTOR, and SERVANT exit.\*
-                    ***** MACBETH: Hmm... I dunno. 
-                        SEYTON: Great, you're really giving it your all, Macbeth.
-                        
-                        \*SEYTON pauses.\*
-                        
-                        SEYTON: I mean, here I am, I showed up on time. To the play. The play that you're supposed to show up on time for.
-                        
-                        \*SEYTON pauses.\*
-                        
-                        SEYTON: The play that you're late for. And you don't know your lines. "That's fine", I think, and I try to help you.
-                        
-                        \*SEYTON pauses.\*
-                        
-                        SEYTON: And then, you go off the rails. You say whatever comes to mind. You do your own thing.
-                        
-                        \*SEYTON pauses.\*
-                        
-                        SEYTON: And you're really showcasing your A-Grade acting material here. You're really selling me on MACBETH's dilemma here.
-                        
-                        \*SEYTON pauses.\*
-                        
-                        SEYTON: You're really showcasing the caverns of...
-                        
-                        \*SEYTON pauses.\*
-                        
-                        SEYTON: Vast.
-                        
-                        \*SEYTON pauses.\*
-                        
-                        SEYTON: Deep.
-                        
-                        \*SEYTON pauses.\*
-                        
-                        SEYTON: Bottomless.
-                        
-                        \*SEYTON pauses.\*
-                        
-                        SEYTON: Intelligence and Ability that you have available. So why don't you do me a favor, and...
-                        
-                        \*SEYTON pauses.\*
-                        
-                        SEYTON (Shouting): GET OFF THE STAGE!
-                        
-                        \*SEYTON drags MACBETH offstage. The DOCTOR and the SERVANT follow.\*
-                **** MACBETH: Serves Macbeth right then. Guess I shouldn't've killed the King.
-                    SEYTON: Yes, I guess he shouldn't've. Lesson learned.
+                            SEYTON: Actually, you should come and get it with me! That would be much better for the production. I mean... the battle! You should get things... set up for yourself.
+                            
+                            \*SEYTON, MACBETH, DOCTOR, and SERVANT exit.\*
+                ***** MACBETH: Hmm... I dunno. 
+                    SEYTON: Great, you're really giving it your all, Macbeth.
                     
-                    DOCTOR: But, I have my whole...
+                    \*SEYTON pauses.\*
                     
-                    SEYTON: Let's just move onto the next scene before things get worse.
+                    SEYTON: I mean, here I am, I showed up on time. To the play. The play that you're supposed to show up on time for.
                     
-                    \*DOCTOR, SERVANT, and MACBETH exit.\*
+                    \*SEYTON pauses.\*
+                    
+                    SEYTON: The play that you're late for. And you don't know your lines. "That's fine", I think, and I try to help you.
+                    
+                    \*SEYTON pauses.\*
+                    
+                    SEYTON: And then, you go off the rails. You say whatever comes to mind. You do your own thing.
+                    
+                    \*SEYTON pauses.\*
+                    
+                    SEYTON: And you're really showcasing your A-Grade acting material here. You're really selling me on MACBETH's dilemma here.
+                    
+                    \*SEYTON pauses.\*
+                    
+                    SEYTON: You're really showcasing the caverns of...
+                    
+                    \*SEYTON pauses.\*
+                    
+                    SEYTON: Vast.
+                    
+                    \*SEYTON pauses.\*
+                    
+                    SEYTON: Deep.
+                    
+                    \*SEYTON pauses.\*
+                    
+                    SEYTON: Bottomless.
+                    
+                    \*SEYTON pauses.\*
+                    
+                    SEYTON: Intelligence and Ability that you have available. So why don't you do me a favor, and...
+                    
+                    \*SEYTON pauses.\*
+                    
+                    SEYTON (Shouting): GET OFF THE STAGE!
+                    
+                    \*SEYTON drags MACBETH offstage. The DOCTOR and the SERVANT follow.\*
+                    
+                    ~selfishDistinctOutcome = "ReallyUpsetSeyton"
+            **** MACBETH: Serves Macbeth right then. Guess I shouldn't've killed the King.
+                SEYTON: Yes, I guess he shouldn't've. Lesson learned.
+                
+                DOCTOR: But, I have my whole...
+                
+                SEYTON: Let's just move onto the next scene before things get worse.
+                
+                \*DOCTOR, SERVANT, and MACBETH exit.\*
         *** MACBETH: Sorry, say that again? I didn't catch all of that.
             SEYTON (Loudly Whispering): Are you kidding me?
             
             **** MACBETH: Don't worry, I'll make up a new motivation.
                 SEYTON: What? Uhhh, no! Don't do that!
                 
+                ~selfishEnemy = "Macduff"
+                
                 ***** MACBETH: Macduff killed my father.
+                    ~selfishDistinctOutcome = "MacduffMurderedFather"
                 ***** MACBETH: Macduff was the one who really killed the king!
-            
+                    ~selfishDistinctOutcome = "MacduffKilledKing"
                 -----
                 SEYTON: No! No he didn't! This didn't happen!
                 
@@ -311,6 +346,8 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
 * MACBETH: I think that could do with some revision.
     \*MACDUFF leans out from stage left.\*
     MACDUFF (Whispering): Don't get fancy with it, just stick to the script.
+    
+    ~selfishEnemy = "Macduff"
     ** MACBETH: Ha, I didn't read the script.
         MACDUFF (Whispering): I am shocked. Shocked, that you cannot read.
         
@@ -340,6 +377,8 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
                         MACDUFF: Great. See you after.
                         
                         \*The GUARDS, MACDUFF, MACBETH, the SERVANT, and the DOCTOR exit.\*
+                        
+                        ~selfishDistinctOutcome = "MacduffExecutionScheduled"
                     ****** MACBETH: Sorry, no can do. I'll just replace you with an impostor.
                         \*FAKE MACBETH enters.\*
                         
@@ -348,16 +387,20 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
                         (FAKE) MACDUFF: You can call me Macduff for this next scene.
                         
                         \*The GUARDS, MACDUFF, FAKE MACBETH (To be MACDUFF next scene), MACBETH, the SERVANT, and the DOCTOR exit.\*
+                        
+                        ~selfishDistinctOutcome = "MacduffExecutionScheduledImpostor"
                 ***** MACBETH: I dunno, bind Macduff's hands together or something.
                     \*A GUARD binds MACDUFF's hands together.\*
                     
                     MACDUFF: Great. Now my hands are bound together. I'll see you in a bit.
                     
                     \*The GUARDS, MACDUFF, MACBETH, the SERVANT, and the DOCTOR exit.\*
+                    ~selfishDistinctOutcome = "MacduffHandsBound"
         *** MACBETH: Wait, if I can't read, how can I read this?
             -> witch_encounter ->
     ** MACBETH: Stick with the script. Got it.
         MACDUFF (Whispering): Good.
+        
         *** MACBETH: And that's why your honor, by habeas corpus, my client is completely innocent!
             MACDUFF (Whispering): What are you doing?
             
@@ -418,6 +461,8 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
 ->->
 
 === witch_encounter ===
+~selfishEnemy = "Macduff"
+
 \*FIRST WITCH, SECOND WITCH, and THIRD WITCH pop up from underneath the stage.\*
 FIRST WITCH: All hail Macbeth! Hail to thee, thane of delusion!
 
@@ -476,4 +521,8 @@ MACDUFF (Hurriedly Whispering): Why have you been staring at the stage for the p
 MACDUFF (Aggressively Whispering Through Clenched Teeth): GET. OFF. THE. STAGE.
 
 \*MACBETH exits.\*
+->->
+
+=== selfish_middle ====
+
 ->->

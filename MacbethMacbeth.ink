@@ -54,4 +54,19 @@ ACT I, SCENE I
 \*MACDUFF and his army enter. MACBETH watches MACDUFF and his army prepare for war.\*
 
 ACT V, SCENE V
+
+\*Enter MACBETH, SEYTON, and SOLDIERS, with drums and colors.\*
+
+* MACBETH: Hang out our banners on the outward walls;
+    -> standard_middle->
+* MACBETH: Line?
+    -> selfish_middle ->
+* MACBETH: ???
+-
+-> SceneVII
+
+=== SceneVII ===
+\* MACDUFF, MALCOLM, SIWARD, and the English army enter, prepare for war, and exit.\*
+
+\*Alarms sound, MACBETH enters.\*
 -> END
