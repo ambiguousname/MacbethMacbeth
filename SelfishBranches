@@ -141,6 +141,8 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
                     FAKE MACBETH: Alright, I'm gonna have a go. Excuse me, excuse me.
                     
                     \*MACBETH is hurriedly escorted offstage. FAKE MACBETH performs the rest of the scene, and exits with DOCTOR and SERVANT.\*
+                    
+                    ~selfishReplacedByFakeMacbeth = true
             **** MACBETH: Don't think we're not done, Seyton.
                 ~selfishEnemy = "Seyton"
             
