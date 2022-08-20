@@ -533,9 +533,9 @@ MACDUFF (Aggressively Whispering Through Clenched Teeth): GET. OFF. THE. STAGE.
 
 === function print_enemy(firstLetter, firstLetterCapital)
     {selfishEnemy == "DOCTOR":
-        ~ return selfishEnemy + ": Ha, " + firstLetterCapital
+        ~ return selfishEnemy + ": Ha, " + firstLetter
     - else:
-        ~ return selfishEnemy + ": " + firstLetter
+        ~ return selfishEnemy + ": " + firstLetterCapital
     }
 === selfish_middle ====
 { selfishDistinctOutcome:
@@ -555,10 +555,78 @@ MACDUFF (Aggressively Whispering Through Clenched Teeth): GET. OFF. THE. STAGE.
 - "MacduffExecutionScheduled":
 - "MacduffExecutionScheduledImpostor":
     -> macduff_execution_outcome ->
+- "":
+    {selfishEnemy == "":
+        SEYTON: Not this again.
+    -else:
+        {selfishEnemy != "SEYTON": 
+        \*{selfishEnemy} enters.\*
+        }
+        {print_enemy("n", "N")}ot this again. {selfishEnemy == "SERVANT": Please... please... just say the line right!| Just get off the stage already, nincompoop!}
+    }
+    
+    -> selfish_middle_no_distinct ->
+    
+    
 }
 // Macduff hands bound will only be used for finale (when Macbeth fights Macduff).
 // Same with the whole "Macduff killed my father" or "Macduff killed the king". That will be saved for the duel with Macduff.
 
+->->
+
+=== selfish_middle_no_distinct ===
+* MACBETH: Oh, boo-hoo. I don't know my lines. I can always make something up.
+    {print_enemy("o", "O")}h no. Please don't make anything up.
+    
+    ** MACBETH: MACBETH!
+        {selfishEnemy == "SEYTON":
+            SEYTON: What are you DOING? You can't say that name! You'll curse the whole production!
+        - else: 
+            {print_enemy("w", "W")}hat are you doing?
+            
+            \*PLAY DIRECTOR enters.\*
+            
+            PLAY DIRECTOR: Why are you going off-script{selfish_intro: again}? And... wait a second, are you invoking the Macbeth name out of context?
+        }
+        
+        ~ temp witchReady = false
+        
+        *** MACBETH: What are you talking about?
+            ~witchReady = true
+        *** MACBETH: I'm improvising.
+            {selfishEnemy == "SEYTON": 
+                SEYTON: Well, stop it!
+            - else:
+                PLAY DIRECTOR: Stop it, you lily-guilded rat face!
+            }
+            
+        ---
+            {selfishEnemy == "SEYTON":
+                SEYTON: Everyone knows Shakespeare wrote Macbeth using real witches. As long as we don't anger them, we'll be fine. Unless you start doing stupid crap like this! STAY ON SCRIPT!
+            - else: 
+                PLAY DIRECTOR: Do you realize just how many actors have been crushed during productions of Macbeth? And you're about to be one of them, unless you shut your stupid face!
+            }
+            
+            **** MACBETH: I don't believe in that superstitious nonsense.
+                {witchReady && witch_encounter:
+                    \*FIRST WITCH, SECOND WITCH, and THIRD WITCH enter.\*
+                    
+                    FIRST WITCH: Congratulations on making it this far, dearie!
+                    TODO
+                -else: 
+                    ->crushed_under->
+                }
+            **** MACBETH: MACBETH! MACBETH! MACBETH!
+                -> crushed_under ->
+    ** MACBETH:
+        TODO
+* MACBETH:
+    TODO
+-
+->->
+
+=== crushed_under ===
+TODO
 ->->
 
 === servant_murderer_outcome ===
@@ -885,9 +953,11 @@ PLAY DIRECTOR: MACBETH?
     
     \*PLAY DIRECTOR notices MACDUFF's unconscious body.\*
 
-    PLAY DIRECTOR: I guess we do. You're hired.
+    PLAY DIRECTOR: I guess we do. You're hired. You won't get paid anything, though.
     
     \*PLAY DIRECTOR, MACBETH, SEYTON, OPHELIA, FIRST WITCH, SECOND WITCH, THIRD WITCH, and the SOLDIERS exit. QUEEN GERTRUDE, KING CLAUDIUS, and HAMLET remain on the stage for the duration of the play.\*
+    // Note, I left Polonious on the stage by accident, so I would absolutely 100% make use of that.
+    // Oh, and a finale where everyone drinks the *poisoned* afterparty booze.
 -
 ->->
 
