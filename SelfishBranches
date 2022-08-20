@@ -416,6 +416,7 @@ SEYTON (Whispering): AHEM! Bring me no reports; let them fly all.
             PLAY DIRECTOR (Offstage): Okay, get the understudy back on.
             
             \*MACBETH is yanked offstage. The SERVANT and the DOCTOR follow.\*
+            ~selfishReplacedByFakeMacbeth = true
         *** MACBETH: Wait, I still don't know the script.
             SEYTON (Whispering): I just fed you your lines!
             
@@ -715,7 +716,113 @@ SEYTON: That's IT, you little creep!
 
 === heckled_outcome ===
 // Hamlet play upstairs crashes the party
-HECKLER (Offstage): Oh, boo! Boo Macbeth!
+HECKLER (Offstage): Oh, boo! Boo Macbeth! You suck! Go feast on your own petards!
+
+\*HAMLET, OPHELIA, KING CLAUDIUS, POLONIOUS, and LAERTES enter from the second floor, hitting the stage below.\*
+
+DOCTOR (Offstage): Is everyone alright? I'm not a real doctor, but that seemed bad.
+
+\*HAMLET stands up.\*
+
+HAMLET: To be, or not to be, that is the question,
+Whether 'tis nobler in the mind to suffer...
+
+\*PLAY DIRECTOR enters.\*
+
+PLAY DIRECTOR: What's going on here? We're in the middle of Macbeth!
+
+\*HAMLET PLAY DIRECTOR enters from stage top.\*
+
+HAMLET PLAY DIRECTOR: Well, we need a new venue, and ours just collapsed!
+
+SEYTON: What kind of idiot builds two stories for one theatre? Isn't that just competing with your own business?
+
+HAMLET PLAY DIRECTOR: Well, our version of Hamlet is populated entirely by formerly cursed goats and/or formerly cursed people, so that's quite a smaller demographic.
+
+\*HAMLET PLAY DIRECTOR turns to the AUDIENCE.\*
+
+HAMLET PLAY DIRECTOR: You're all welcome to join us upstairs by the way. We perform most weekday nights, and everyone is welcome, not just ex-cursees. We can also mostly guarantee that you will not be cursed during any of our performances, barring any witches in the audience or under the floorboards.
+
+HAMLET: To-morrow and to-morrow, and to-morrow,
+Creeps in this petty face,
+
+HECKLER: Wait a second, that's Macbeth's soliloquy!
+
+OPHELIA: Give it a rest, Hamlet!
+
+PLAY DIRECTOR: HEY! You can't be promoting your own plays while we're in the middle of ours! And for the record, we DO have witches in the floorboards!
+
+\*FIRST WITCH, SECOND WITCH, and THIRD WITCH enter from the floorboards.\*
+
+FIRST WITCH: That's right! But we don't do curses, not without a nominal fee.
+
+SECOND WITCH: The fee is actually quite expensive, but the first payment isn't! Then the APR increases drastically.
+
+OPHELIA: Well, we can't just stop here, our audience from upstairs was looking forward to the conclusion!
+
+\*UPSTAIRS AUDIENCE falls down onto the stage, and hurriedly sits \*
+
+PLAY DIRECTOR: Hold on a second, if you were at the conclusion, then why is Hamlet giving a "To be or not to be" soliloquy, and why is Ophelia present at all? Aren't you supposed to be dead by ACT IV?
+
+OPHELIA: SPOILERS! And I don't like being excluded!
+
+HAMLET PLAY DIRECTOR: Ex-cursees don't like unhappy endings, so we typically razz and pizzazz things up a little to ensure good times for all.
+
+HAMLET: Party rock is in the house tonight,
+Everybody just have a good time.
+
+PLAY DIRECTOR: That's complete crap! What is Shakespeare without a tragic ending? And spoilers? Who hasn't seen or read Hamlet yet?
+
+\*HAMLET slumps over.\*
+
+HAMLET: Oh, the poison must be kicking in now.
+
+HAMLET PLAY DIRECTOR: Ohh, boo-hoo! Not every Shakespeare play has to be a tragedy. What about a Midsummer Night's Dream? And HAMLET, get up. You're not even poisoned yet, we still need to get to the fight with LAERTES!
+
+LAERTES: Yeah, I'm standing right here, it's completely rude for you all to ignore me.
+
+HAMLET: No, I took real poison. Little itty bitty doses of cyanide. I think they're just getting to me.
+
+SEYTON (Shocked): WHAT? WHY!?
+
+HAMLET: I am a serious method actor, and I need to sell my performance! If you all hadn't come in and screwed up everything, I'd be dying fighting Laertes right now!
+
+\*QUEEN GERTRUDE enters from the top. She does not get back up.\*
+
+HAMLET: Oh, the poison for the Queen must also be kicking in now.
+
+OPHELIA (In Increasing Distress): I'm working with a psychopath! I'm working with a psychopath!
+
+HAMLET PLAY DIRECTOR: Okay, use that Ophelia! That's the kind of motivation we're looking for. As for you Hamlet, I just explained, that WE ARE NOT DOING THE TRAGIC ENDINGS! What is wrong with you!?
+
+HAMLET: I didn't read the scripts, okay!? I mean, I can't read, so I just had some dude I met at a bar give me a summary!
+
+\*KING CLAUDIUS slumps over, and HAMLET struggles to stand up.\*
+
+HAMLET: Oh crap, that was an incidental poisoning... sorry... King Claudius... I didn't know how to slip in the poison directly, so I just poisoned... like an entire section of the craft services table...
+
+\*HAMLET goes flat.\*
+
+HAMLET: ... and all the afterparty stuff. Bleh.
+
+\*HAMLET dies.\*
+
+HAMLET PLAY DIRECTOR: Okay, well now my principle actor is dead. So I'm going to need to borrow MACBETH... and the whole stage.
+
+PLAY DIRECTOR: What? You can't do that!
+
+HAMLET PLAY DIRECTOR: Oh yes I can. My finale involves swords, don't you know. LAERTES!
+
+\*LAERTES draws their sword.\*
+
+LAERTES: We'll be taking this stage now.
+
+PLAY DIRECTOR: MACBETH?
+
+* MACBETH: TO ARMS! LET US DRIVE BACK THESE SWINE!
+* 
+
+-
 ->->
 
 === surrendering_outcome ===
