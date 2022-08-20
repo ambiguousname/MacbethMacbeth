@@ -532,8 +532,11 @@ MACDUFF (Aggressively Whispering Through Clenched Teeth): GET. OFF. THE. STAGE.
 */
 
 === function print_enemy(firstLetter, firstLetterCapital)
-    {selfishEnemy == "DOCTOR":
+    {selfishEnemy:
+    - "DOCTOR":
         ~ return selfishEnemy + ": Ha, " + firstLetter
+    - "":
+        ~ return "SEYTON: " + firstLetter
     - else:
         ~ return selfishEnemy + ": " + firstLetterCapital
     }
@@ -611,22 +614,118 @@ MACDUFF (Aggressively Whispering Through Clenched Teeth): GET. OFF. THE. STAGE.
                 {witchReady && witch_encounter:
                     \*FIRST WITCH, SECOND WITCH, and THIRD WITCH enter.\*
                     
-                    FIRST WITCH: Congratulations on making it this far, dearie!
-                    TODO
+                    FIRST WITCH: Congratulations on making it this far!
+                    
+                    SECOND WITCH: We enjoyed binding your extremities greatly!
+                    
+                    THIRD WITCH: And now, your reward!
+                    
+                    ALL: The Script!
+                    
+                    \*The FIRST WITCH hands MACBETH this script. MACBETH reads the script.\*
+                    
+                    MACBETH: Hey wait a second, this is where we are right now! It says that I'm supposed to read the script!
+                    
+                    FIRST WITCH: And now you can change it to be whatever you want!
+                    
+                    SECOND WITCH: Not if we're puppetting the poor soul. Let me see...
+                    
+                    \*The SECOND WITCH commands MACBETH to rewrite the script.\*
+                    
+                    CAPTAIN UNKILLABLE: Hey, what did you just do?
+                    
+                    SKELEDUDE: And laser beam... GO!
+                    
+                    CAPTAIN UNKILLABLE: What?
+                    
+                    \*The laser kills CAPTAIN UNKILLABLE.\*
+                    
+                    SKELEDUDE: Man, what an idiot. Glad I was delivered by C-Section, otherwise that would have never worked.
+                    
+                    MINION: What?
+                    
+                    SKELEDUDE: Nevermind. Let's go dominate the universe or whatever.
+                    
+                    The End.
+                    ->END
                 -else: 
                     ->crushed_under->
                 }
             **** MACBETH: MACBETH! MACBETH! MACBETH!
                 -> crushed_under ->
-    ** MACBETH:
-        TODO
-* MACBETH:
-    TODO
+    ** MACBETH: I've got it! The English army is... disguised as... a bunch of trees! Go kill them!
+        {print_enemy("w", "W")}hat? Hey, you're not supposed to know that yet!
+        
+        FIRST SOLDIER: And it doesn't really make a difference. We're still going to die to the army, even though we still know that they're disguised with branches.
+        
+        SECOND SOLDIER: Speaking of, here they come to kill us now!
+        
+        {selfishEnemy == "SEYTON" || selfishEnemy == "": 
+        \*MACBETH, SEYTON, and the SOLDIERS exit.\*
+        -else:
+        \*MACBETH, SEYTON, {selfishEnemy}, and the SOLDIERS exit.\*
+        }
+* MACBETH: I seriously don't know the line.
+    {selfishReplacedByFakeMacbeth:
+        PLAY DIRECTOR (Offstage): Alright, we'll just get your understudy to replace you, same as last time.
+        
+        \*MACBETH is yanked offstage and replaced by FAKE MACBETH. FAKE MACBETH learns LADY MACBETH is dead, and prepares for war. FAKE MACBETH, SEYTON, and the SOLDIERS exit.\*
+    -else:
+        ->dont_know_line_middle->
+    }
 -
 ->->
 
+=== dont_know_line_middle ===
+{print_enemy("o", "O")}kay, what do you actually know?
+        
+* MACBETH: I don't know. Let's just go to the next scene and see how this all ends.
+    {print_enemy("t", "T")}hat's probably your first good idea of the night.
+* MACBETH: EVERYTHING! I AM OMNIPOTENT!
+    {selfishEnemy == "MACDUFF":
+        MACDUFF: You don't even know my army is coming to kill you.
+    - else:
+        {print_enemy("y", "Y")}ou don't even know that an army is coming to kill you disguised as branches!
+    }
+    
+    {print_enemy("t", "T")}his was a bad idea.
+    
+    {selfishEnemy == "SEYTON" || selfishEnemy == "MACDUFF":
+        \*{selfishEnemy} turns to the AUDIENCE.\*
+        {print_enemy("l", "L")}isten folks, all that really happens is that Macbeth learns more people are dead, and more people are about to die.
+    }
+
+-
+{selfishEnemy == "SEYTON" || selfishEnemy == "": 
+\*MACBETH, SEYTON, and the SOLDIERS exit.\*
+-else:
+\*MACBETH, SEYTON, {selfishEnemy}, and the SOLDIERS exit.\*
+}
+->->
+
 === crushed_under ===
-TODO
+\*A stage light lands directly on MACBETH.\*
+
+{selfishEnemy == "SEYTON":
+SEYTON: I am shocked. SHOCKED! Serves you right.
+-else:
+PLAY DIRECTOR: Told you.
+}
+
+* [MACBETH: Help, I'm still alive!]
+* [MACBETH: You think a puny stage light can stop Macbeth?]
+
+-
+\*MACBETH grumbles incoherent angry nonsense underneath the stage light.\*
+
+{selfishEnemy == "SEYTON":
+SEYTON: Oh ho ho, how the wheel turns. Not too pleased with yourself, are you now?
+-else:
+PLAY DIRECTOR: Oh, I guess you're still under there. I think we can act around you.
+}
+
+\*The actors continue out the rest of the scene, pretending that MACBETH is in fact, not trapped under a stage light. They also pretend that MACBETH is a better actor than reality might indicate. All exit, except for MACBETH (who is still trapped under the stage light).\*
+
 ->->
 
 === servant_murderer_outcome ===
@@ -1068,6 +1167,8 @@ SEYTON: Look, if it'll make you feel better, I'd be just as happy if you got und
     \*MACBETH goes under BRUTUS' feet. MACBETH is crushed instantly.\*
 -
 SEYTON: Serves you right, you holistic wretch.
+
+So MACBETH died. And there was much rejoicing!
 
 The End.
 ->END
