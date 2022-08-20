@@ -1,6 +1,9 @@
 INCLUDE SelfishBranches
 INCLUDE ActualSceneBranches
 INCLUDE EmbarrassedBranches
+INCLUDE JasonBranch1.ink
+
+
 
 
 -> introduction
@@ -42,18 +45,15 @@ ACT I, SCENE I
                 ->selfish_intro->
             **** MACBETH: Bring me no more reports; let them fly all:
                 -> standard_intro ->
-            **** MACBETH: ???
+            **** MACBETH: 
                 -> embarrassed_introduction ->
-            **** MACBETH: ???
+            **** MACBETH: Bring me no more reports. Why are you still alive. 
+                 MACBETH jumps out of his chair, and he is terrified by
+                 something.
                 -> jason_intro ->
 -
 ->SceneV
         
-
-=== jason_intro ===
-
-->->
-
 === SceneV ===
 \*MACDUFF and his army enter. MACBETH watches MACDUFF and his army prepare for war.\*
 
