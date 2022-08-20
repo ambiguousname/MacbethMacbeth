@@ -1,5 +1,7 @@
 INCLUDE SelfishBranches
 INCLUDE ActualSceneBranches
+INCLUDE EmbarrassedBranches
+
 
 -> introduction
 
@@ -40,6 +42,8 @@ ACT I, SCENE I
                 ->selfish_intro->
             **** MACBETH: Bring me no more reports; let them fly all:
                 -> standard_intro ->
+            **** MACBETH: ???
+                -> embarrassed_introduction ->
             **** MACBETH: ???
                 -> jason_intro ->
 -
