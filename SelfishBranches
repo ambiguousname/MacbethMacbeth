@@ -970,7 +970,7 @@ PLAY DIRECTOR: Oh hey, we can just use this instead of your crap performance. Al
 And so they played Macbeth on TV and some of Grey's Anatomy until everyone got bored and went home.
 
 The End.
-->->
+->END
 
 === upset_seyton_outcome ===
 SEYTON: Ahh, so we're doing this routine again. Don't worry Macbeth! I forgive VERY EASILY.
@@ -1004,5 +1004,36 @@ The End.
 
 === macduff_execution_outcome ===
 // Wheel out a Guillotine, Macduff is executed onstage, play ends early.
+SEYTON: Oh, we were executing Macduff, right?
 
-->->
+\*MACDUFF enters, dragged by GUARDs.\*
+
+MACDUFF: Hey wait a second, you can't do this! I'm supposed to kill you!
+
+* MACBETH: Yes. Bring out the horses.
+    \*Four horses enter. They are each fastened to a limb of MACDUFF.\*
+    
+    MACDUFF: Hey, wait a second! Is there some kind of safe word? This is really going off the rails, heh.
+    
+    SEYTON: Ready?
+    
+    MACDUFF: I'm pretty sure this is illegal. No, I'm definitely sure. I am definitely sure this is illegal. Please stop, please don't...
+    
+    SEYTON: Go!
+* MACBETH: Oui oui. Bring out le guillotine.
+    \*A Guillotine is wheeled out onto stage.\*
+
+    MACDUFF: Hey, wait a second! Is there some kind of safe word? This is really going off the rails, heh.
+    
+    SEYTON: Alright, put your head in there.
+    
+    \*MACDUFF's head is placed in the guillotine.\*
+    
+    MACDUFF: I'm pretty sure this is illegal. No, I'm definitely sure. I am definitely sure this is illegal. Please stop, please don't...
+    
+    SEYTON: Go!
+-
+And so MACDUFF died. For real. And MACBETH went on to terrorize the rest of Scotland.
+
+The End.
+->END
