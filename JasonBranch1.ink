@@ -110,3 +110,105 @@ Witch: Yes, My Lord. I have implied a spell on a doll that will keep a ghost awa
 
 Macbeth: Oh really, I will take your gift. 
 ->->
+
+=== jason_mid ===
+MACBETH: What What are you holding?
+MACBETH asks soldiers whose are holding a banner on their arms.
+The Stage Crew: What is he saying? Did he forgot his line? Should we take a break, DIRECTOR
+The stage director is thinking whether he should bring Macbeth out of the stage. He looks around the stage and the audiences' reaction.
+The Stage director: The audience are heavily concentrated. Let him continue the play.
+
+*SEYTON whispers to Macbeth.
+SEYTON: Hey MACBETH. you miss the line.
+
+MACBETH is acting that he sees a ghost not the banner next to the soldiers. He starts to point his finger toward the soliders, and he asked.
+
+MACBETh: Does anyone here see that? Get rid off that.  Right now
+
+One of the SOLDIER: But MY LORD, this is our banner. This banner holds our pride and loyalty toward this country. We should throw away the banner that EASILY ...
+
+MACBETh: Did you talk back to me. SEYTON, execute him. 
+
+The crowds, soliders, and the nobles whispering each others. MACBETH starts to hear ghostly footsteps and sounds. Macbeth starts to have a headache again. The shape of the ghost looks similar to Lady MACBETH. 
+
+SEYTON: Are you okay, my lord.
+MACBETH: I am fine. Just execute them all.
+SEYTON: please have a mercy on them. My lord. Take lord to the bedroom. 
+
+** one of the soliders next to Macbeth takes him to the Bedroom. MACBETH exit the stage
+
+SEYTON: Let hang out our banners on the outward walls. To show our strength and pride of our army. 
+
+The women in the crowds starts to cry.
+ 
+MESSENGER: Sir SEYTON, our queen has pass away.
+SEYTON: I will pass that message to Lord MACBETH
+MESSENGER: Yes Sir.
+
+***Head to MACBETH Bedroom. 
+SEYTON: Sir MACBETH, Lady MACBETH has pass away.
+MACBETH: What did you just said to me? What are you saying? MY wife died. No No No, she didn't die. you lied to me. you Liar and Slave.
+Seyton quitely leaves MACBETH bedroom. 
+MACBETH is unable to accept the reality. Through the night, he ask same question over and over again to the guards of the his bedroom.
+-
+->->
+
+=== jason_end ===
+Alarums. Enter MACBETH THE stage
+
+The play director: this time do not mess up with your line. MACBETH.
+MACBETH: You know I finish the act perfectly. trust me boss. 
+
+MACBETH: So you are the famous warrior in English army. 
+The Play director shake his head.
+The play director: he has done it again. Just follow a line on script, Young Siward.
+YOUNG SIWARD: Yes, sir.
+*Young SIWARD enter the stage 
+
+YOUNG SIWARD: What is your name?
+MACBETH: I fear to say my name, but I will tell you my name. 
+YOUNG SIWARD: I guess your name is beautiful than any lady in your country.
+MACBETH: my name is ...
+The ghost appears in fornt of MACBETH again
+The ghost: Why did you kill me? MACBETH
+Macbeth shakes his head, and he pretends not to see the ghost.
+
+MACBETH: My lord Duncan. why are you here. I sent you to the hell or... Did you come back to kill me. 
+
+MACBETH crys and shout to the ghost
+MACBETh: Let me be a king in peace. Why are you haunting and show up my every dreams and every places that I go. Why!
+The ghost is silently staying in front of MACBETH.
+** MACBETH and YOUNG SIWARD start cross their swords each other. Their sword fight was intense and takes place in the light, upon a raining day. Hearing a clash between a sword shows their pride and desire to win the battle. Finally the sword fights ends, YOUNG SIWARD fell down the warm ground filled with flowers. White flowers are dyed with a crimson red color. 
+
+MACBETH shouts and is out of breath.
+MACBETh: I finally sent you to hell. Don't ever come back to me. you haunted ghosts.
+MACBETH rides a horse to go back to his castle.
+However, it was too late. The english army successfully siege the castle. 
+
+*** MALCOLM AND SIWARD ENTER THE stage
+MALCOLM: I have been haunted by my children and wife. asking for my dear help. I have finally came to have revenge Macbeth.
+
+SIWARD: My LORD, We have finally defeat the demon living in this castle. Please follow me inside of the castle.
+
+Exeunt. Alarums.
+MACBETH: This is end of my life...
+The ghost shows up again.
+MACBETH: So you came to pick me up to hell. Hahahahahahaahahhaha.
+
+The crowds: did he go crazy. 
+MACBETH does not stop laughing until the end of execution. 
+MALCOLM and SIWARD silently watch the execution.
+
+**** End of the play. See the audience reaction.
+-> audience_reaction ->
+-
+->->
+
+=== audience_reaction ===
+AUDIENCE and the play staffs is quitely for minutes. Audience gives huge round of applause. 
+Audience who are leaving: It was crazy.
+AUDIENCE's friend: Yeah.
+
+Back on the stage, some of the actors, actress, and staffs are unsatified with my self behaviors. 
+on the other side, some of them are satified with my act. 
+->->

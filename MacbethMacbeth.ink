@@ -65,7 +65,8 @@ ACT V, SCENE V
     -> standard_middle->
 * MACBETH: Line?
     -> selfish_middle ->
-* MACBETH: ???
+* MACBETH: What are you holding?
+    -> jason_mid ->
 -
 -> SceneVII
 
@@ -79,5 +80,7 @@ ACT V, SCENE V
     -> selfish_end ->
 * MACBETH: They have tied me to a stake; I cannot fly,
     -> standard_end->
+* MACBETH: So you are the famous warrior in English army. 
+    -> jason_end ->
 -
 -> END
