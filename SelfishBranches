@@ -1,6 +1,7 @@
 VAR selfishEnemy = ""
 VAR selfishDistinctOutcome = ""
 VAR selfishReplacedByFakeMacbeth = false
+VAR selfishMacduffReplacedByOphelia = false
 
 === selfish_intro ===
 \*SEYTON\* peers out from stage right.
@@ -1057,6 +1058,7 @@ PLAY DIRECTOR: MACBETH?
     PLAY DIRECTOR: I guess we do. You're hired. You won't get paid anything, though.
     
     \*PLAY DIRECTOR, MACBETH, SEYTON, OPHELIA, FIRST WITCH, SECOND WITCH, THIRD WITCH, and the SOLDIERS exit. QUEEN GERTRUDE, KING CLAUDIUS, and HAMLET remain on the stage for the duration of the play.\*
+    ~selfishMacduffReplacedByOphelia = true
     // Note, I left Polonious on the stage by accident, so I would absolutely 100% make use of that.
     // Oh, and a finale where everyone drinks the *poisoned* afterparty booze.
 -
@@ -1211,5 +1213,132 @@ The End.
 ->END
 
 === selfish_end ===
+    {
+    - heckled_outcome:
+        {selfishMacduffReplacedByOphelia:
+            \*OPHELIA enters.\*
+            OPHELIA: Alright, prepare to fight me, MACBETH! Because I am MACDUFF!
+        }
+        
+        \*PLAY DIRECTOR enters.\*
+        
+        PLAY DIRECTOR: Sorry, I don't think I can do this anymore. MACBETH is probably just going to ruin this anyways. Maybe if you had made a concerted effort to learn your lines after this Hamlet disaster MACBETH, we might have all partied afterwards. But you didn't. So...
+        
+        \*POLONIOUS bleats.\*
+        
+        PLAY DIRECTOR: I agree, Goat POLONIOUS. Let's go home.
+        
+        And so the play got a bad review, and everyone was unhappy.
+        
+        The End.
+    - left_early_outcome:
+        \*SEYTON enters, and reattaches the stick to MACBETH.\*
+        SEYTON: Alright, dummy, we're going to finish this play whether you like it or not.
+        
+        MACBETH (Ventriloquized by SEYTON): Sure thing, dummy!
+        
+        And so SEYTON finished the play. And everyone was really confused. One critic even called it "I don't know what happened, but I am certain I don't ever want to see this again."
+        
+        The End.
+    - servant_murderer_outcome:
+        \*SERVANT enters.\*
+        
+        SERVANT: Alright, ... maybe we should resolve this whole "trying to... kill me", thing.
+        
+        \*SEYTON enters.\*
+        
+        SEYTON: NO! DON'T! THAT COULD BRING THE BEES BACK!
+        
+        \*PLAY DIRECTOR enters.\*
+        
+        PLAY DIRECTOR: Yeah, let's just end this early so the bees...
+        
+        \*Humming noise begins again.\*
+        
+        PLAY DIRECTOR: Okay, theatre is dead.
+        
+        SEYTON: RUN!
+        
+        And so everyone got stung by bees, and the play got very negative reviews.
+        
+        The End.
+    - crushed_under:
+        \*MACBETH still mumbles, crushed underneath the stage light.\*
+        
+        \*MACDUFF enters.\*
+    
+        MACDUFF: Okay, prepare... to fight me, Macbeth.
+        
+        \*MACDUFF whacks their fake wooden sword against the stage light.\*
+        
+        {selfishDistinctOutcome == "MacduffHandsBound": 
+            MACDUFF: This is especially difficult since my hands are bound, you know.
+        -else:
+            MACDUFF: Okay...
+        }
+        
+        \*MACDUFF pauses.\*
+        
+        MACDUFF: Macbeth is dead, play over.
+        
+        And the play got resounding reviews, especially since Macbeth got crushed by a stagelight midway through. Huzzah!
+    - selfishDistinctOutcome == "MacduffKilledKing" || selfishDistinctOutcome == "MacduffMurderedFather":
+        \*MACDUFF enters.\*
+        
+        MACDUFF: Alright, let's just resolve this right now.
+        
+        {selfishDistinctOutcome == "MacduffKilledKing":
+            MACDUFF: You think I killed the king...
+        -else:
+            MACDUFF: You think I killed your... father...
+        }
+        
+        \*MACDUFF pauses.\*
+        
+        MACDUFF: Whatever, let's just end this early. En garde.
+        
+        \*MACDUFF draws their wooden sword, and whacks MACBETH over the head. MACBETH is knocked unconscious.\*
+        
+        And so the play was over, and everyone was kind of apathetic.
+        
+        The End.
+    - selfishDistinctOutcome == "MacduffHandsBound":
+        \*MACDUFF enters.\*
+        
+        MACDUFF: Uhhh, I guess my hands are bound? So... uh... I can't really kill you.
+        
+        \*MACDUFF pauses.\*
+        
+        MACDUFF: I give up, you win. Let's go home.
+        
+        The End.
+    - else:
+        ->selfish_end_no_distinct->
+    }
+-
+->->
 
+=== selfish_end_no_distinct ===
+{selfishEnemy != "":
+    \*{selfishEnemy} enters.\*
+    {print_enemy("n", "N")}ot this again...
+}
+
+{selfishEnemy != "SEYTON":
+    \*SEYTON enters.\*
+}
+
+SEYTON: You know what? We're at the end anyways. Let me handle this.
+
+\*SEYTON walks towards MACBETH.\*
+
+SEYTON: To be, or not to be...
+
+\*SEYTON trips on a loose floorboard.\*
+
+SEYTON: Whoops!
+
+And so Seyton tripped, absolutely ruining the play. And everyone left super unsatisfied.
+
+The End.
 ->->
