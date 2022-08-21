@@ -182,6 +182,135 @@ And beat them backward home.
 ->->
 
 === standard_end ===
+But, bear-like, I must fight the course. What's he
+That was not born of woman? Such a one
+Am I to fear, or none.
 
+\*Enter YOUNG SIWARD.\*
+
+YOUNG SIWARD: What is thy name?
+
+* MACBETH: Thou'lt be afraid to hear it.
+    YOUNG SIWARD: No; though thou call'st thyself a hotter name
+    Than any is in hell.
+    ** MACBETH: My name's Macbeth.
+        YOUNG SIWARD: The devil himself could not pronounce a title
+        More hateful to mine ear.
+        *** MACBETH: No, nor more fearful.
+            YOUNG SIWARD: Thou liest, abhorred tyrant; with my sword
+            I'll prove the lie thou speak'st.
+            
+            \*MACBETH and YOUNG SIWARD fight. YOUNG SIWARD is slain.\*
+            
+            **** MACBETH: Thou wast born of woman
+                But swords I smile at, weapons laugh to scorn,
+                Brandish'd by man that's of a woman born.
+                    \*MACBETH exits. MACDUFF enters, grieves over YOUNG SIWARD.\*
+                    
+                    ACT V, SCENE VIII
+                    
+                    \*MACBETH enters.\*
+                    
+                    ***** MACBETH: Why should I play the Roman fool, and die
+                        On mine own sword? whiles I see lives, the gashes
+                        Do better upon them.
+                        
+                        \*MACDUFF enters.\*
+                        
+                        MACDUFF: Turn, hell-hound, turn!
+                        
+                        ****** MACBETH: Of all men else I have avoided thee:
+                            But get thee back; my soul is too much charged
+                            With blood of thine already.
+                            
+                            MACDUFF: I have no words:
+                            My voice is in my sword: thou bloodier villain
+                            Than terms can give thee out!
+                            
+                            \*MACDUFF and MACBETH fight.\*
+                            
+                            ******* MACBETH: Thou losest labour:
+                                As easy mayst thou the intrenchant air
+                                With thy keen sword impress as make me bleed:
+                                Let fall thy blade on vulnerable crests;
+                                I bear a charmed life, which must not yield,
+                                To one of woman born.
+                                
+                                MACDUFF: Despair thy charm;
+                                And let the angel whom thou still hast served
+                                Tell thee, Macduff was from his mother's womb
+                                Untimely ripp'd.
+                                
+                                ******** MACBETH: Accursed be that tongue that tells me so,
+                                    For it hath cow'd my better part of man!
+                                    And be these juggling fiends no more believed,
+                                    That palter with us in a double sense;
+                                    That keep the word of promise to our ear,
+                                    And break it to our hope. I'll not fight with thee.
+                                    
+                                    MACDUFF: Then yield thee, coward,
+                                    And live to be the show and gaze o' the time:
+                                    We'll have thee, as our rarer monsters are,
+                                    Painted on a pole, and underwrit,
+                                    'Here may you see the tyrant.'
+                                    
+                                    ********* MACBETH: I will not yield,
+                                        To kiss the ground before young Malcolm's feet,
+                                        And to be baited with the rabble's curse.
+                                        Though Birnam wood be come to Dunsinane,
+                                        And thou opposed, being of no woman born,
+                                        Yet I will try the last. Before my body
+                                        I throw my warlike shield. Lay on, Macduff,
+                                        And damn'd be him that first cries, 'Hold, enough!'
+                                        
+                                        \*MACBETH and MACDUFF exit. MACBETH is slain offscreen, and the play eventually ends.\*
+                                        
+                                        MACDUFF: Alright, that's our show everyone!
+                                        
+                                        {
+                                        - standard_intro && standard_middle: 
+                                            \*The AUDIENCE claps politely.\*
+                                            
+                                            MACDUFF: And I thought that was going to go terribly. Drinks, anyone?
+                                            
+                                            The play went well!
+                                            
+                                            The End.
+                                        - selfish_intro || selfish_middle:
+                                            \*The AUDIENCE boos.\*
+                                            
+                                            MACDUFF: Macbeth screwed us! Ugh, let's just get a drink.
+                                            
+                                            -> standard_selfish_end ->
+                                        - else: 
+                                            \*The AUDIENCE gets up and leaves.\*
+                                            
+                                            MACDUFF: Well, this was a bust. Bye!
+                                            
+                                            And so the play ended in a mediocre manner.
+                                            
+                                            The End.
+                                        }
+                                        
 -
 ->->
+
+=== standard_selfish_end ===
+{ heckled_outcome:
+    SEYTON: Hey, didn't someone mention afterparty drinks?
+    
+    MACDUFF: Yeah, the Hamlet production. Let's get wasted! And Macbeth is NOT invited!
+
+    And so everyone (except Macbeth) died from Hamlet's poison.
+    
+    The End.
+    
+    -else:
+    
+    And so everoyone (except Macbeth) went for drinks, and they all died in obscurity. Most died from old age, except for Seyton, who died in a separate and unrelated Macbeth production.
+    
+    The End.
+}
+
+-
+->END
