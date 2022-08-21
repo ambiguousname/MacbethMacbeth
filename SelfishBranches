@@ -910,6 +910,8 @@ HAMLET PLAY DIRECTOR: Well, our version of Hamlet is populated entirely by forme
 
 HAMLET PLAY DIRECTOR: You're all welcome to join us upstairs by the way. We perform most weekday nights, and everyone is welcome, not just ex-cursees. We can also mostly guarantee that you will not be cursed during any of our performances, barring any witches in the audience or under the floorboards.
 
+\*POLONIOUS bleats.\*
+
 HAMLET: To-morrow and to-morrow, and to-morrow,
 Creeps in this petty face,
 
@@ -1174,7 +1176,6 @@ The End.
 ->END
 
 === macduff_execution_outcome ===
-// Wheel out a Guillotine, Macduff is executed onstage, play ends early.
 SEYTON: Oh, we were executing Macduff, right?
 
 \*MACDUFF enters, dragged by GUARDs.\*
@@ -1208,3 +1209,7 @@ And so MACDUFF died. For real. And MACBETH went on to terrorize the rest of Scot
 
 The End.
 ->END
+
+=== selfish_end ===
+
+->->

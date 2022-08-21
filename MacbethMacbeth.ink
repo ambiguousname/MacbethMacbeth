@@ -73,4 +73,11 @@ ACT V, SCENE V
 \* MACDUFF, MALCOLM, SIWARD, and the English army enter, prepare for war, and exit.\*
 
 \*Alarms sound, MACBETH enters.\*
+
+
+* MACBETH: Line?
+    -> selfish_end ->
+* MACBETH: They have tied me to a stake; I cannot fly,
+    -> standard_end->
+-
 -> END
