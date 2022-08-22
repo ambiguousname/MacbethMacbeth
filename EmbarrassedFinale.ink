@@ -32,21 +32,11 @@ Macbeth couldn't take it any longer and rushed to leave the stage. He just could
 
 * Macbeth projectile vomits on the stage and slips in it as he still tries to make a dash for the backstage.
 
-Silent and full of of pity the crowd begins a slow clap which turns louder and louder. They begin to chant Macbeth! For his brave attempt at withstanding the pressures of performance Macbeth is shown love and respect from the audience.
-
-->->
+    Silent and full of of pity the crowd begins a slow clap which turns louder and louder. They begin to chant Macbeth! For his brave attempt at withstanding the pressures of performance Macbeth is shown love and respect from the audience.
 
 
 * Macbeth attempts to run off stage and make it to the hallway bathroom, but as he leaves he vomits on several members of the audience.
+    The whole crowd shouts in horror and disgust. Macbeth sees the disgust in their faces and books it for the exit. As he runs in shame the crowd boo and throw their concessions as he runs away in tears.
 
-The whole crowd shouts in horror and disgust. Macbeth sees the disgust in their faces and books it for the exit. As he runs in shame the crowd boo and throw their concessions as he runs away in tears.
-
-->END
-
-
-
-
-
-
-
+-
 -> END
