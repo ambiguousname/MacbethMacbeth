@@ -1,7 +1,9 @@
 INCLUDE SelfishBranches
 INCLUDE ActualSceneBranches
-INCLUDE EmbarrassedBranches
 INCLUDE JasonBranch1.ink
+INCLUDE Act5Scene5Embarrassed.ink
+INCLUDE Act5scene7.ink
+INCLUDE EmbarrassedFinale.ink
 
 
 
@@ -45,8 +47,6 @@ ACT I, SCENE I
                 ->selfish_intro->
             **** MACBETH: Bring me no more reports; let them fly all:
                 -> standard_intro ->
-            **** MACBETH: 
-                -> embarrassed_introduction ->
             **** MACBETH: Bring me no more reports. Why are you still alive. 
                  MACBETH jumps out of his chair, and he is terrified by
                  something.
@@ -65,6 +65,8 @@ ACT V, SCENE V
     -> standard_middle->
 * MACBETH: Line?
     -> selfish_middle ->
+* MACBETH: Excuse me?
+    ->Play->
 * MACBETH: What are you holding?
     -> jason_mid ->
 -
@@ -76,10 +78,12 @@ ACT V, SCENE V
 \*Alarms sound, MACBETH enters.\*
 
 
-* MACBETH: Line?
-    -> selfish_end ->
 * MACBETH: They have tied me to a stake; I cannot fly,
     -> standard_end->
+* MACBETH: Line?
+    -> selfish_end ->
+* MACBETH: Excuse me, again?
+    -> Act5scene7embarressed ->
 * MACBETH: So you are the famous warrior in English army. 
     -> jason_end ->
 -

@@ -1,5 +1,3 @@
--> Act5scene7embarressed
-
 ===Act5scene7embarressed
 Trumpets and the noise of battle rings 
 
@@ -79,30 +77,5 @@ SIWARD: Enter the castle sir.
 They exit while battle noises continue.
 
 
----
-->DONE
-
-
-
-
-
-
-
-
-
-
-
-
-
-->END
-
-
-
-
-
-
-
-
-
-
-
+-
+->EmbarrasedFinale

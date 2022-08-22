@@ -1,6 +1,3 @@
-
--> Play
-
 ===Play
 
 MACBETH , SEYTON , and SOLDIERS enter with a drummer and flag.
@@ -100,41 +97,5 @@ MESSANGER: Beat me if so please, but it's true go and see it yourself you awkwar
 Macbeth is stunned and the bit of confidence he has worked up is completely eradicated.
 
 MACBETH: Well..well if this if you're wrong I'll hang you!
----
-
-->DONE
-
-
-
-
-
- 
-    
-  
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-->END
+-
+->->

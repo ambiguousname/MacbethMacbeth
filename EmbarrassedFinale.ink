@@ -1,5 +1,3 @@
--> EmbarrasedFinale
-
 ===EmbarrasedFinale
 
 The finale of the play begins
@@ -36,7 +34,7 @@ Macbeth couldn't take it any longer and rushed to leave the stage. He just could
 
 Silent and full of of pity the crowd begins a slow clap which turns louder and louder. They begin to chant Macbeth! For his brave attempt at withstanding the pressures of performance Macbeth is shown love and respect from the audience.
 
-->DONE
+->->
 
 
 * Macbeth attempts to run off stage and make it to the hallway bathroom, but as he leaves he vomits on several members of the audience.
