@@ -16,6 +16,33 @@ Observing the script and fulfilling the role of an actor who is fulfilling the r
 
 ## Story Structure (graphs)
 
+### All of the branches
+![Story Structure](StoryStructure.png)
+
+The branching structure is actually fairly simple from a larger point of view. At the start of each key scene starring Macbeth in the finale, you'll have the choice to branch off to each of our Selfish, Haunted, and Embarrassed branches, and then you will eventually be returned to the beginning of the next scene, where you can branch off again.
+
+This is an interesting structure because it somewhat represents Macbeth's attempt to escape his fate (albeit from the lens of an actor attempting to disrupt the play), only for the inevitable witch's prophecy to come to fruition, ultimately leading to his death.
+
+### Selfish branch
+![Selfish Branch Structure](SelfishBranch.png)
+
+The selfish branch is a LOT to deal with. Sorry, I just couldn't help myself when writing so many distinct outcomes. The more detailed graph of the Selfish branch doesn't even list all the possibilties (that gets into more space than we have available), but here's the rough idea:
+
+Each bubble represents a decision you can make, while each arrow represents what happens if you continue through with your decisions in the next available selfish branch. The end of any bubble chain represents the ending you get.
+
+So for example, if you Surrender to the English in the first selfish branch in Act V Scene III, and then make the same selfish branch at the start of ACT V Scene IV, then you get the SUPER MACBETH ending.
+
+### Haunted branch
+![Haunted Branch Structure](HauntedBranch.png)
+
+In Haunted Branch, a player who takes part in the role of Macbeth will now see a ghost of King Duncan during the play.  
+
+### Embarrassed Branch
+![Embarrassed Branch Structure](EmbarrassedBranch.png)
+
+Macbeth struggles between insecurity and bravado, but ultimately becomes sick from stress. He ends up vomiting, and becomes embarrassed. The crowd either supports his efforts with pity or boos in anger.
+
+
 ## Key Ink Variables / State Tracking
 
 There are only two global key Ink variables in the Selfish branch, to keep track of a few things:
