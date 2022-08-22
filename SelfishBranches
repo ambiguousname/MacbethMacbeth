@@ -529,7 +529,7 @@ MACDUFF (Aggressively Whispering Through Clenched Teeth): GET. OFF. THE. STAGE.
 ->->
 
 /*
- These arguments are incredibly stupid, but there is no toUpperCase in Ink: 
+ These arguments are incredibly stupid, but there is no toUpperCase in Ink (not that I can find): 
 */
 
 === function print_enemy(firstLetter, firstLetterCapital)
