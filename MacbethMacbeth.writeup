@@ -1,0 +1,131 @@
+# MACBETH MACBETH
+## Group 13
+## https://github.com/ambiguousname/MacbethMacbeth
+
+## Narrative Stance and Rationale
+
+## Story Structure (graphs)
+
+## Key Ink Variables / State Tracking
+
+There are only two global key Ink variables in the Selfish branch, to keep track of a few things:
+
+`selfishEnemy` keeps track of who the selfish branch thinks your enemy is. They will be more prominent if you revisit selfish branches later.
+
+So for example, you could have:
+
+```
+** MACBETH: MACBETH!
+    {selfishEnemy == "SEYTON":
+        SEYTON: What are you DOING? You can't say that name! You'll curse the whole production!
+    - else: 
+        {print_enemy("w", "W")}hat are you doing?
+        
+        \*PLAY DIRECTOR enters.\*
+        
+        PLAY DIRECTOR: Why are you going off-script{selfish_intro: again}? And... wait a second, are you invoking the Macbeth name out of context?
+    }
+```
+
+This is mostly used to make custom responses for specific enemies.
+
+`selfishDistinctOutcome` keeps track of wholly unique outcomes of the selfish branch, and are used to branch off even further from the main selfish branches.
+
+If you got surrendered to the English, then `selfishDistinctOutcome = “SurrenderingToTheEnglish”`, and so Super Macbeth will pile drive you into the moon and end the play early.
+
+If you accused the Servant of killing the king, then `selfishDistinctOutcome = “ServantKilledKing”`, and the entire play will be attacked by bees.
+
+If you happened to get no distinct outcome, you will be funnelled to a different part of the selfish branches to make decisions there.
+
+There are also a few minor global variables stemming from the selfish branch that don't change the state too much (maybe only one line of dialogue or so). They have relatively no impact on the state, so that's why they're only getting this brief mention.
+
+## Ink Affordances: Text/Code
+
+We make heavy use of tunnels throughout the story, because the idea is that the actors eventually attempt to redirect the course of the play back to the intended script. So, you'll make a lot of choices that will eventually loop back:
+
+```
+*** \*MACBETH enters stage left. The AUDIENCE looks confused.\* 
+    **** MACBETH: Line?
+        ->selfish_intro->
+    **** MACBETH: Bring me no more reports; let them fly all:
+        -> standard_intro ->
+    **** MACBETH: 
+        -> embarrassed_introduction ->
+    **** MACBETH: Bring me no more reports. Why are you still alive. 
+            MACBETH jumps out of his chair, and he is terrified by
+            something.
+        -> jason_intro ->
+```
+
+The Selfish branch delves a little more into Ink's affordances than the other branches, as it tries to cover repeat attempts to enter the selfish branches. 
+
+So, it makes use of a function to name distinct enemy dialogue:
+
+```
+=== function print_enemy(firstLetter, firstLetterCapital)
+    {selfishEnemy:
+    - "DOCTOR":
+        ~ return selfishEnemy + ": Ha, " + firstLetter
+    - "":
+        ~ return "SEYTON: " + firstLetter
+    - else:
+        ~ return selfishEnemy + ": " + firstLetterCapital
+    }
+```
+
+And it also uses if and switch statements from other selfish global variables in order to make the story follow some kind of logical track from your previous selfish choices:
+
+```
+MACDUFF: Okay, prepare... to fight me, Macbeth.   
+    \*MACDUFF whacks their fake wooden sword against the stage light.\*
+
+    {selfishDistinctOutcome == "MacduffHandsBound": 
+        MACDUFF: This is especially difficult since my hands are bound, you know.
+    -else:
+        MACDUFF: Okay...
+    }
+```
+
+```
+=== selfish_middle ====
+{ selfishDistinctOutcome:
+- "ServantPoisonedWife":
+- "ServantKilledKing":
+    -> servant_murderer_outcome ->
+- "LeftEarly":
+    -> left_early_outcome ->
+- "Heckled":
+    -> heckled_outcome ->
+- "SurrenderingToTheEnglish":
+    -> surrendering_outcome ->
+- "SittingForDeath":
+    -> waiting_for_death_outcome ->
+- "ReallyUpsetSeyton":
+    ->upset_seyton_outcome->
+- "MacduffExecutionScheduled":
+- "MacduffExecutionScheduledImpostor":
+    -> macduff_execution_outcome ->
+- "":
+    {selfishEnemy == "":
+        SEYTON: Not this again.
+    -else:
+        {selfishEnemy != "SEYTON": 
+        \*{selfishEnemy} enters.\*
+        }
+        {print_enemy("n", "N")}ot this again. {selfishEnemy == "SERVANT": Please... please... just say the line right!| Just get off the stage already, nincompoop!}
+    }
+    
+    -> selfish_middle_no_distinct ->
+```
+
+## Discourse Example/Demonstration
+
+## Something Cool
+
+## Resources Used
+
+- http://shakespeare.mit.edu/macbeth/full.html
+- http://shakespeare.mit.edu/hamlet/full.html
+- https://en.wikipedia.org/wiki/Hamlet
+- https://en.wikipedia.org/wiki/Macbeth 
+- https://www.sparknotes.com/nofear/shakespeare/macbeth/act-5-scene-7/
