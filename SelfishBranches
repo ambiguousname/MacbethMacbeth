@@ -886,7 +886,7 @@ SEYTON: That's IT, you little creep!
 // Hamlet play upstairs crashes the party
 HECKLER (Offstage): Oh, boo! Boo Macbeth! You suck! Go feast on your own petards!
 
-\*HAMLET, OPHELIA, KING CLAUDIUS, POLONIOUS, and LAERTES enter from the second floor, hitting the stage below.\*
+\*HAMLET, OPHELIA, KING CLAUDIUS, POLONIUS, and LAERTES enter from the second floor, hitting the stage below.\*
 
 DOCTOR (Offstage): Is everyone alright? I'm not a real doctor, but that seemed bad.
 
@@ -911,7 +911,7 @@ HAMLET PLAY DIRECTOR: Well, our version of Hamlet is populated entirely by forme
 
 HAMLET PLAY DIRECTOR: You're all welcome to join us upstairs by the way. We perform most weekday nights, and everyone is welcome, not just ex-cursees. We can also mostly guarantee that you will not be cursed during any of our performances, barring any witches in the audience or under the floorboards.
 
-\*POLONIOUS bleats.\*
+\*POLONIUS bleats.\*
 
 HAMLET: To-morrow and to-morrow, and to-morrow,
 Creeps in this petty face,
@@ -1059,7 +1059,7 @@ PLAY DIRECTOR: MACBETH?
     
     \*PLAY DIRECTOR, MACBETH, SEYTON, OPHELIA, FIRST WITCH, SECOND WITCH, THIRD WITCH, and the SOLDIERS exit. QUEEN GERTRUDE, KING CLAUDIUS, and HAMLET remain on the stage for the duration of the play.\*
     ~selfishMacduffReplacedByOphelia = true
-    // Note, I left Polonious on the stage by accident, so I would absolutely 100% make use of that.
+    // Note, I left POLONIUS on the stage by accident, so I would absolutely 100% make use of that.
     // Oh, and a finale where everyone drinks the *poisoned* afterparty booze.
 -
 ->->
@@ -1224,9 +1224,9 @@ The End.
         
         PLAY DIRECTOR: Sorry, I don't think I can do this anymore. MACBETH is probably just going to ruin this anyways. Maybe if you had made a concerted effort to learn your lines after this Hamlet disaster MACBETH, we might have all partied afterwards. But you didn't. So...
         
-        \*POLONIOUS bleats.\*
+        \*POLONIUS bleats.\*
         
-        PLAY DIRECTOR: I agree, Goat POLONIOUS. Let's go home.
+        PLAY DIRECTOR: I agree, Goat POLONIUS. Let's go home.
         
         And so the play got a bad review, and everyone was unhappy.
         
